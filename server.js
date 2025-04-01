@@ -24,13 +24,35 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/scripts', express.static(path.join(__dirname, 'public', 'scripts')));
 
-// Conexión a PostgreSQL
+// Conexión a PostgreSQL,pool para el plan gratuito
 const pool = new Pool({
     connectionString: process.env.DATABASE_URL,
-    ssl: {
-        rejectUnauthorized: false
-    }
+    ssl: { rejectUnauthorized: false },
+    max: 8,       // Máximo de conexiones
+    idleTimeoutMillis: 30000,
+    connectionTimeoutMillis: 2000
 });
+
+if (process.env.NODE_ENV === 'production') {
+    console.log('Configurando keep-alive ping para producción...');
+
+    setInterval(() => {
+        pool.query('SELECT 1')
+        .then(() => console.log(`[${new Date().toISOString()}] Keep-alive ejecutado`))
+        .catch(e => console.error('Error en keep-alive:', e));
+    }, 300000); // 5 minutos
+
+    // Opcional: Ejecutar inmediatamente el primer ping
+    pool.query('SELECT 1').catch(console.error);
+}
+
+// Keep-alive para evitar que Render duerma el servicio
+setInterval(() => {
+    pool.query('SELECT 1')
+      .then(() => console.log('Keep-alive ping ejecutado -', new Date().toLocaleTimeString()))
+      .catch(e => console.error('Error en ping:', e));
+}, 300000); // 300000 ms = 5 minutos
+// =======================================
 
 // Verificar conexión a PostgreSQL
 pool.connect((err, client, release) => {
@@ -370,6 +392,17 @@ app.post('/api/upload-photo', upload.single('profileImage'), async (req, res) =>
         });
     }
 });
+
+
+app.get('/status', async (req, res) => {
+    try {
+      await pool.query('SELECT 1');
+      res.json({ status: 'OK', db: 'connected' });
+    } catch (e) {
+      res.status(500).json({ status: 'ERROR', db: 'disconnected' });
+    }
+  });
+
 
 // Servir archivos estáticos desde uploads
 app.use('/uploads', express.static(path.join(__dirname, 'public', 'uploads')));
