@@ -41,14 +41,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 const ctx = canvas.getContext('2d');
                 
                 // Reducir progresivamente hasta cumplir con 2MB
-                let quality = 0.9; // Empezar con 90% de calidad
+                let quality = 0.8; // Empezar con 80% de calidad
                 let result;
                 
                 const attemptCompression = () => {
                     // Calcular nuevo tamaño manteniendo relación de aspecto
                     let width = img.width;
                     let height = img.height;
-                    const maxDimension = 1500; // Máximo permitido para empezar
+                    const maxDimension = 1200; // Máximo permitido para empezar
                     
                     if (width > height && width > maxDimension) {
                         height *= maxDimension / width;
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             }));
                         } else {
                             // Reducir calidad y volver a intentar
-                            quality -= 0.1;
+                            quality -= 0.15;
                             attemptCompression();
                         }
                     }, 'image/jpeg', quality);
@@ -88,6 +88,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+    const MAX_FILE_SIZE = 1.2 * 1024 * 1024; // tamaño maximo de la foto
+
     // Guardar foto
     savePhotoBtn.addEventListener('click', async function() {
         if (!currentFile) return;
@@ -97,12 +99,12 @@ document.addEventListener("DOMContentLoaded", function() {
         
         try {
             // Comprimir solo si es necesario
-            const finalFile = currentFile.size > 2 * 1024 * 1024 
+            const finalFile = currentFile.size > MAX_FILE_SIZE  
                 ? await compressImage(currentFile)
                 : currentFile;
-            
-            if (finalFile.size > 2 * 1024 * 1024) {
-                throw new Error("No se pudo comprimir la imagen a menos de 2MB");
+        
+            if (finalFile.size > MAX_FILE_SIZE) {  
+                throw new Error("No se pudo comprimir la imagen a menos de 1.2MB");
             }
             
             statusText.textContent = "Subiendo imagen...";
@@ -111,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
             formData.append('userId', sessionStorage.getItem('currentUserId'));
             formData.append('profileImage', finalFile);
             
-            const response = await fetch('http://localhost:3000/api/upload-photo', {
+            const response = await fetch('/api/upload-photo', {
                 method: 'POST',
                 body: formData
             });
