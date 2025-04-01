@@ -16,3 +16,35 @@
 2025-04-01 11:39:04 - Finished servidorrecolecciondatos.exe
 2025-04-01 11:39:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\node_modules\node-windows\lib\wrapper.js --file C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\server.js --scriptoptions= --log "ServidorRecoleccionDatos wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2025-04-01 11:39:04 - Started 23016
+2025-04-01 12:07:55 - Stopping servidorrecolecciondatos.exe
+2025-04-01 12:07:55 - ProcessKill 23016
+2025-04-01 12:07:55 - Found child process: 22088 Name: conhost.exe
+2025-04-01 12:07:55 - Found child process: 24000 Name: node.exe
+2025-04-01 12:07:55 - Stopping process 22088
+2025-04-01 12:07:55 - Send SIGINT 22088
+2025-04-01 12:07:55 - SIGINT to 22088 failed - Killing as fallback
+2025-04-01 12:07:55 - Stopping process 24000
+2025-04-01 12:07:55 - Send SIGINT 24000
+2025-04-01 12:07:55 - SIGINT to 24000 failed - Killing as fallback
+2025-04-01 12:07:55 - Stopping process 23016
+2025-04-01 12:07:55 - Send SIGINT 23016
+2025-04-01 12:07:55 - SIGINT to 23016 failed - Killing as fallback
+2025-04-01 12:07:55 - Finished servidorrecolecciondatos.exe
+2025-04-01 12:23:16 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\node_modules\node-windows\lib\wrapper.js --file C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\server.js --scriptoptions= --log "ServidorRecoleccionDatos wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-04-01 12:23:16 - Started 14560
+2025-04-01 13:58:39 - Stopping servidorrecolecciondatos.exe
+2025-04-01 13:58:39 - ProcessKill 14560
+2025-04-01 13:58:40 - Found child process: 16216 Name: conhost.exe
+2025-04-01 13:58:40 - Found child process: 22820 Name: node.exe
+2025-04-01 13:58:40 - Stopping process 16216
+2025-04-01 13:58:40 - Send SIGINT 16216
+2025-04-01 13:58:40 - SIGINT to 16216 failed - Killing as fallback
+2025-04-01 13:58:40 - Stopping process 22820
+2025-04-01 13:58:40 - Send SIGINT 22820
+2025-04-01 13:58:40 - SIGINT to 22820 failed - Killing as fallback
+2025-04-01 13:58:40 - Stopping process 14560
+2025-04-01 13:58:40 - Send SIGINT 14560
+2025-04-01 13:58:40 - SIGINT to 14560 failed - Killing as fallback
+2025-04-01 13:58:40 - Finished servidorrecolecciondatos.exe
+2025-04-01 14:09:48 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\node_modules\node-windows\lib\wrapper.js --file C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\server.js --scriptoptions= --log "ServidorRecoleccionDatos wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-04-01 14:09:48 - Started 26752

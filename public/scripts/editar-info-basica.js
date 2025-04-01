@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
             console.log('Enviando datos:', datosActuales);
     
-            const response = await fetch('http://localhost:3000/api/guardar-perfil', {
+            const response = await fetch('/api/guardar-perfil', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
