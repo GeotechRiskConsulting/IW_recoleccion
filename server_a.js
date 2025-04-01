@@ -6,9 +6,17 @@ const fs = require('fs');
 const fsPromises = require('fs').promises;
 const multer = require('multer');
 const sharp = require('sharp');
+const cors = require('cors');
 
 const app = express();
 const PORT = 3000;
+
+// Configura CORS
+app.use(cors({
+    origin: ['https://iw-recoleccion.onrender.com', 'http://localhost:3000'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+  }));
 
 // Configuración mejorada
 app.use(bodyParser.json({ limit: '10mb' }));
@@ -355,7 +363,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'public', 'uploads')));
 
 // Iniciar servidor (sin cambios)
 app.listen(PORT, () => {
-    console.log(`Servidor funcionando en http://localhost:${PORT}`);
-    console.log(`Endpoint para guardar: POST http://localhost:${PORT}/api/guardar-perfil`);
-    console.log(`Endpoint para verificar: GET http://localhost:${PORT}/api/verificar-datos`);
+    console.log(`Servidor funcionando en`);
+    console.log(`Endpoint para guardar: POST /api/guardar-perfil`);
+    console.log(`Endpoint para verificar: GET /api/verificar-datos`);
 });

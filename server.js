@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const Database = require('better-sqlite3'); // Cambio principal
+const { Pool } = require('pg'); // Reemplazamos better-sqlite3 por pg
 const path = require('path');
 const fs = require('fs');
 const fsPromises = require('fs').promises;
@@ -9,14 +9,14 @@ const sharp = require('sharp');
 const cors = require('cors');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Configura CORS
 app.use(cors({
     origin: ['https://iw-recoleccion.onrender.com', 'http://localhost:3000'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
-  }));
+}));
 
 // Configuración mejorada
 app.use(bodyParser.json({ limit: '10mb' }));
@@ -24,33 +24,23 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/scripts', express.static(path.join(__dirname, 'public', 'scripts')));
 
-// Configuración de rutas principales
-app.get('/', (req, res) => {
-    res.redirect('/editar-info-basica');
+// Conexión a PostgreSQL
+const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+        rejectUnauthorized: false
+    }
 });
 
-app.get('/editar-info-basica', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'editar-info-basica.html'));
+// Verificar conexión a PostgreSQL
+pool.connect((err, client, release) => {
+    if (err) {
+        console.error('Error al conectar a PostgreSQL:', err);
+        process.exit(1);
+    }
+    console.log('Conectado a PostgreSQL correctamente');
+    release();
 });
-
-app.get('/editar-edu-exp-hab', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'editar-edu-exp-hab.html'));
-});
-
-app.get('/editar-foto', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'editar-foto.html'));
-});
-
-// Conexión a SQLite con better-sqlite3
-let db;
-try {
-    db = new Database('./database/database.db');
-    db.pragma('journal_mode = WAL'); // Mejor rendimiento
-    console.log('Conectado a SQLite correctamente con better-sqlite3');
-} catch (err) {
-    console.error('Error al inicializar SQLite:', err);
-    process.exit(1);
-}
 
 // Configuración de multer (sin cambios)
 const storage = multer.diskStorage({
@@ -79,11 +69,11 @@ const upload = multer({
     }
 });
 
-// Crear directorio de uploads si no existe (sin cambios)
+// Crear directorio de uploads si no existe
 fsPromises.mkdir('./public/uploads/', { recursive: true })
     .catch(err => console.error('Error al crear directorio uploads:', err));
 
-// Helper para manejar el archivo JSON (sin cambios)
+// Helper para manejar el archivo JSON (opcional, puedes mantenerlo como backup adicional)
 const updateBackupFile = (newData) => {
     try {
         let existingData = [];
@@ -133,67 +123,87 @@ const updateBackupFile = (newData) => {
     }
 };
 
-// Crear tabla con validación (versión better-sqlite3)
-const createTable = () => {
+// Crear tablas en PostgreSQL
+const createTables = async () => {
     try {
-        db.prepare(`CREATE TABLE IF NOT EXISTS usuarios (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            nombre TEXT,
-            apellido TEXT,
-            telefono TEXT,
-            pais TEXT,
-            ciudad TEXT,
-            fechaNacimiento TEXT,
-            aprendizajeOficio TEXT,
-            sector TEXT,
-            rama TEXT,
-            especialidad TEXT,
-            perfilAcademico TEXT,
-            nivelAcademico TEXT,
-            campoEstudio TEXT,
-            categoria TEXT,
-            oficio TEXT,
-            experienciaTiempo TEXT,
-            tiempoDisponible TEXT, 
-            educacion TEXT,           
-            experiencia TEXT,         
-            habilidades TEXT,  
-            fotoPerfil TEXT,                   
-            fechaRegistro DATETIME DEFAULT CURRENT_TIMESTAMP
-        )`).run();
+        await pool.query(`
+            CREATE TABLE IF NOT EXISTS usuarios (
+                id SERIAL PRIMARY KEY,
+                nombre TEXT,
+                apellido TEXT,
+                telefono TEXT,
+                pais TEXT,
+                ciudad TEXT,
+                fechaNacimiento TEXT,
+                aprendizajeOficio TEXT,
+                sector TEXT,
+                rama TEXT,
+                especialidad TEXT,
+                perfilAcademico TEXT,
+                nivelAcademico TEXT,
+                campoEstudio TEXT,
+                categoria TEXT,
+                oficio TEXT,
+                experienciaTiempo TEXT,
+                tiempoDisponible TEXT, 
+                educacion TEXT,           
+                experiencia TEXT,         
+                habilidades TEXT,  
+                fotoPerfil TEXT,                   
+                fechaRegistro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        `);
 
-        db.prepare(`CREATE TABLE IF NOT EXISTS EduExpHab (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            userId INTEGER NOT NULL,
-            educacion TEXT,
-            experiencia TEXT,
-            habilidades TEXT,
-            FOREIGN KEY(userId) REFERENCES usuarios(id)
-        )`).run();
+        await pool.query(`
+            CREATE TABLE IF NOT EXISTS eduexphab (
+                id SERIAL PRIMARY KEY,
+                userId INTEGER NOT NULL,
+                educacion TEXT,
+                experiencia TEXT,
+                habilidades TEXT,
+                FOREIGN KEY(userId) REFERENCES usuarios(id) ON DELETE CASCADE
+            )
+        `);
 
-        console.log('Tablas "usuarios" y "EduExpHab" verificadas/creadas');
+        console.log('Tablas creadas/verificadas en PostgreSQL');
     } catch (err) {
         console.error('Error al crear tablas:', err);
     }
 };
 
-createTable();
+createTables();
 
-// Endpoint mejorado para guardar (versión better-sqlite3)
-app.post('/api/guardar-perfil', (req, res) => {
+// Configuración de rutas principales (sin cambios)
+app.get('/', (req, res) => {
+    res.redirect('/editar-info-basica');
+});
+
+app.get('/editar-info-basica', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'editar-info-basica.html'));
+});
+
+app.get('/editar-edu-exp-hab', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'editar-edu-exp-hab.html'));
+});
+
+app.get('/editar-foto', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'editar-foto.html'));
+});
+
+// Endpoint para guardar perfil (adaptado a PostgreSQL)
+app.post('/api/guardar-perfil', async (req, res) => {
     if (!req.body.pais || !req.body.ciudad) {
         return res.status(400).json({ error: 'País y ciudad son requeridos' });
     }
 
     const query = `
         INSERT INTO usuarios (
-            nombre, apellido, telefono,
-            pais, ciudad, fechaNacimiento, aprendizajeOficio, 
-            sector, rama, especialidad, perfilAcademico, 
+            nombre, apellido, telefono, pais, ciudad, fechaNacimiento, 
+            aprendizajeOficio, sector, rama, especialidad, perfilAcademico, 
             nivelAcademico, campoEstudio, categoria, oficio, 
-            experienciaTiempo, tiempoDisponible,
-            educacion, experiencia, habilidades
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            experienciaTiempo, tiempoDisponible, educacion, experiencia, habilidades
+        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20)
+        RETURNING *
     `;
     
     const params = [
@@ -220,11 +230,12 @@ app.post('/api/guardar-perfil', (req, res) => {
     ];
 
     try {
-        const result = db.prepare(query).run(params);
+        const result = await pool.query(query, params);
+        const newUser = result.rows[0];
         
         const backupData = {
             ...req.body,
-            id: result.lastInsertRowid,
+            id: newUser.id,
             educacion: [],
             experiencia: [],
             habilidades: [],
@@ -232,14 +243,15 @@ app.post('/api/guardar-perfil', (req, res) => {
         };
         
         updateBackupFile(backupData);
-        return res.json({ success: true, id: result.lastInsertRowid });
+        return res.json({ success: true, id: newUser.id });
     } catch (err) {
         console.error('Error en INSERT:', err);
         return res.status(500).json({ error: 'Error al guardar en base de datos' });
     }
 });
 
-app.post('/api/guardar-experiencia', (req, res) => {
+// Endpoint para guardar experiencia (adaptado a PostgreSQL)
+app.post('/api/guardar-experiencia', async (req, res) => {
     if (!req.body.userId) {
         return res.status(400).json({ error: 'userId es requerido' });
     }
@@ -250,23 +262,22 @@ app.post('/api/guardar-experiencia', (req, res) => {
 
     const query = `
         UPDATE usuarios SET
-            educacion = ?,
-            experiencia = ?,
-            habilidades = ?
-        WHERE id = ?
+            educacion = $1,
+            experiencia = $2,
+            habilidades = $3
+        WHERE id = $4
+        RETURNING *
     `;
 
     try {
-        db.prepare(query).run(educacionStr, experienciaStr, habilidadesStr, req.body.userId);
-        
-        // Obtener TODOS los datos actualizados del usuario
-        const row = db.prepare('SELECT * FROM usuarios WHERE id = ?').get(req.body.userId);
+        const result = await pool.query(query, [educacionStr, experienciaStr, habilidadesStr, req.body.userId]);
+        const updatedUser = result.rows[0];
         
         const backupData = {
-            ...row,
-            educacion: JSON.parse(row.educacion || '[]'),
-            experiencia: JSON.parse(row.experiencia || '[]'),
-            habilidades: JSON.parse(row.habilidades || '[]'),
+            ...updatedUser,
+            educacion: JSON.parse(updatedUser.educacion || '[]'),
+            experiencia: JSON.parse(updatedUser.experiencia || '[]'),
+            habilidades: JSON.parse(updatedUser.habilidades || '[]'),
             fechaActualizacion: new Date().toISOString()
         };
         
@@ -278,19 +289,20 @@ app.post('/api/guardar-experiencia', (req, res) => {
     }
 });
 
-app.get('/api/usuario/:id', (req, res) => {
+// Endpoint para obtener usuario (adaptado a PostgreSQL)
+app.get('/api/usuario/:id', async (req, res) => {
     try {
-        const row = db.prepare('SELECT * FROM usuarios WHERE id = ?').get(req.params.id);
+        const result = await pool.query('SELECT * FROM usuarios WHERE id = $1', [req.params.id]);
         
-        if (!row) {
+        if (result.rows.length === 0) {
             return res.status(404).json({ error: 'Usuario no encontrado' });
         }
         
         const usuario = {
-            ...row,
-            educacion: row.educacion ? JSON.parse(row.educacion) : [],
-            experiencia: row.experiencia ? JSON.parse(row.experiencia) : [],
-            habilidades: row.habilidades ? JSON.parse(row.habilidades) : []
+            ...result.rows[0],
+            educacion: result.rows[0].educacion ? JSON.parse(result.rows[0].educacion) : [],
+            experiencia: result.rows[0].experiencia ? JSON.parse(result.rows[0].experiencia) : [],
+            habilidades: result.rows[0].habilidades ? JSON.parse(result.rows[0].habilidades) : []
         };
         
         res.json(usuario);
@@ -299,7 +311,7 @@ app.get('/api/usuario/:id', (req, res) => {
     }
 });
 
-// Endpoint para subir foto (adaptado)
+// Endpoint para subir foto (adaptado a PostgreSQL)
 app.post('/api/upload-photo', upload.single('profileImage'), async (req, res) => {
     try {
         if (!req.file) {
@@ -324,11 +336,12 @@ app.post('/api/upload-photo', upload.single('profileImage'), async (req, res) =>
         await fsPromises.rename(req.file.path, newPath);
         
         const imagePath = `/uploads/${newFilename}`;
-        db.prepare('UPDATE usuarios SET fotoPerfil = ? WHERE id = ?').run(imagePath, req.body.userId);
+        await pool.query('UPDATE usuarios SET fotoPerfil = $1 WHERE id = $2', [imagePath, req.body.userId]);
 
-        // Actualizar backup.json
-        const userData = db.prepare('SELECT * FROM usuarios WHERE id = ?').get(req.body.userId);
-        if (userData) {
+        // Actualizar backup.json (opcional)
+        const userResult = await pool.query('SELECT * FROM usuarios WHERE id = $1', [req.body.userId]);
+        if (userResult.rows.length > 0) {
+            const userData = userResult.rows[0];
             const backupData = {
                 ...userData,
                 educacion: userData.educacion ? JSON.parse(userData.educacion) : [],
@@ -358,12 +371,13 @@ app.post('/api/upload-photo', upload.single('profileImage'), async (req, res) =>
     }
 });
 
-// Servir archivos estáticos desde uploads (sin cambios)
+// Servir archivos estáticos desde uploads
 app.use('/uploads', express.static(path.join(__dirname, 'public', 'uploads')));
 
-// Iniciar servidor (sin cambios)
+// Iniciar servidor
 app.listen(PORT, () => {
-    console.log(`Servidor funcionando en`);
+    console.log(`Servidor funcionando en puerto ${PORT}`);
+    console.log(`- Local: http://localhost:${PORT}`);
+    console.log(`- Remoto: https://iw-recoleccion.onrender.com`);
     console.log(`Endpoint para guardar: POST /api/guardar-perfil`);
-    console.log(`Endpoint para verificar: GET /api/verificar-datos`);
 });

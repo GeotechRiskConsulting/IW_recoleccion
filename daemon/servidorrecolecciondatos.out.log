@@ -13,3 +13,8 @@ Tablas "usuarios" y "EduExpHab" verificadas/creadas
 Servidor funcionando en http://localhost:3000
 Endpoint para guardar: POST http://localhost:3000/api/guardar-perfil
 Endpoint para verificar: GET http://localhost:3000/api/verificar-datos
+Conectado a SQLite correctamente con better-sqlite3
+Tablas "usuarios" y "EduExpHab" verificadas/creadas
+Servidor funcionando en
+Endpoint para guardar: POST /api/guardar-perfil
+Endpoint para verificar: GET /api/verificar-datos
