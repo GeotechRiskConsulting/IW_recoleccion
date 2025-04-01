@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Foto de Perfil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles_foto.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Foto de perfil</h1>
+        <p>Explicarle a la persona que una foto aumentará sus oportunidades de ser contactado para trabajos 😎. <strong>Pedirle permiso de tomarle una foto</strong>. Si acepta, tomar la foto y subirla aqui ✌️</p>
+        
+        <label class="upload-area" for="imageUpload">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>Haz clic</p>
+        </label>
+        <input type="file" id="imageUpload" accept="image/*">
+        
+        <div>
+            <img id="imagePreview" alt="Vista previa de la imagen">
+        </div>
+        
+        <div id="statusText"></div>
+        
+        <div class="button-group">
+            <button id="savePhoto" disabled>Guardar Foto</button>
+            <button id="skipPhoto">Omitir</button>
+        </div>
+    </div>
+
+    <script src="scripts/editar-foto.js"></script>
+</body>
+</html>

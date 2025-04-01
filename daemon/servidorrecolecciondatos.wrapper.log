@@ -1,0 +1,2 @@
+2025-04-01 09:55:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\node_modules\node-windows\lib\wrapper.js --file C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\server.js --scriptoptions= --log "ServidorRecoleccionDatos wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-04-01 09:55:04 - Started 18660

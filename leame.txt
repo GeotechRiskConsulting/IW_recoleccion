@@ -1,0 +1,14 @@
+Para Pruebas
+
+ir a C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local>
+dar: node server.js
+abrir en la url: http://localhost:3000/editar-info-basica.html
+
+Se asigno a windows la tarea de dar "node server.js" apenas se enciende el equipo, esto para que no falle la recoleccion de datos
+
+Para ver o detener el servicio:
+Win + R, escribir services.msc y pulsa Enter.
+Buscar ServidorRecoleccionDatos, Verificar que esté "En ejecución".
+Si se hacen cambios en server.js Reiniciar servicio.
+Si se quiere eliminar el servicio, ejecutar node uninstall-service.js
+

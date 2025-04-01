@@ -1,0 +1,2296 @@
+{
+  "categorias": {
+    "Alimentación y Cocina": [
+      [
+        "Ayudante de cocina",
+        "Asiste en la preparación de alimentos y limpieza en cocinas profesionales."
+      ],
+      [
+        "Barista",
+        "Especialista en la preparación de café y bebidas a base de café."
+      ],
+      [
+        "Bartender",
+        "Prepara y sirve bebidas y cócteles en bares y restaurantes."
+      ],
+      [
+        "Carnicero",
+        "Corta, limpia y vende carne en carnicerías o supermercados."
+      ],
+      [
+        "Catering",
+        "Encargado de la preparación y servicio de comida para eventos y reuniones."
+      ],
+      [
+        "Chef privado",
+        "Cocina a domicilio o para clientes exclusivos en eventos privados."
+      ],
+      [
+        "Cocinero",
+        "Prepara y cocina alimentos en restaurantes, hoteles o a domicilio."
+      ],
+      [
+        "Elaborador de embutidos",
+        "Prepara productos como chorizos, salchichas y otros embutidos artesanales."
+      ],
+      [
+        "Elaborador de quesos",
+        "Produce quesos de manera artesanal o industrial."
+      ],
+      [
+        "Heladero",
+        "Elabora y vende helados artesanales o industriales."
+      ],
+      [
+        "Maestro chocolatero",
+        "Especialista en la elaboración artesanal de chocolates y bombones."
+      ],
+      [
+        "Panadero",
+        "Elabora pan y productos de panadería en hornos comerciales o artesanales."
+      ],
+      [
+        "Parrillero",
+        "Encargado de asar carnes y otros alimentos en parrillas o barbacoas."
+      ],
+      [
+        "Pastelero",
+        "Elabora y decora pasteles para diferentes eventos y celebraciones."
+      ],
+      [
+        "Pizzero",
+        "Prepara pizzas en restaurantes, pizzerías o food trucks."
+      ],
+      [
+        "Preparador de jugos y batidos",
+        "Vende jugos naturales, smoothies y bebidas saludables."
+      ],
+      [
+        "Repostero",
+        "Especialista en la preparación de pasteles, postres y productos de repostería."
+      ],
+      [
+        "Taquero",
+        "Especialista en la preparación y venta de tacos y antojitos mexicanos."
+      ],
+      [
+        "Tortillero",
+        "Elabora y vende tortillas de maíz o harina en tortillerías o mercados."
+      ],
+      [
+        "Vendedor de comida callejera",
+        "Prepara y vende alimentos en puestos ambulantes o ferias."
+      ]
+    ],
+    "Almacenamiento": [
+      [
+        "Alistador de Pedidos",
+        "Selecciona y organiza productos para su posterior despacho."
+      ],
+      [
+        "Almacenista",
+        "Administra y controla el flujo de productos dentro de un almacén o bodega."
+      ],
+      [
+        "Auxiliar de Bodega",
+        "Realiza la carga, descarga y organización de mercancía en bodegas o almacenes."
+      ],
+      [
+        "Cargador de Camiones",
+        "Carga y descarga camiones con productos para su distribución."
+      ],
+      [
+        "Clasificador de Mercancía",
+        "Organiza y clasifica productos según su tipo y destino en almacenes."
+      ],
+      [
+        "Despachador de Mercancías",
+        "Coordina y ejecuta la entrega de productos a clientes o puntos de venta."
+      ],
+      [
+        "Distribuidor de Productos",
+        "Se encarga de la distribución interna de productos dentro del almacén."
+      ],
+      [
+        "Embalador",
+        "Empaqueta productos con materiales adecuados para su protección y transporte."
+      ],
+      [
+        "Empacador",
+        "Empaca productos para su almacenamiento o distribución."
+      ],
+      [
+        "Encargado de Estanterías",
+        "Ordena y mantiene surtidas las estanterías del almacén."
+      ],
+      [
+        "Estibador",
+        "Carga y descarga mercancía en almacenes, camiones o contenedores."
+      ],
+      [
+        "Inventarista",
+        "Realiza conteos físicos de productos para mantener actualizado el inventario."
+      ],
+      [
+        "Manipulador de Carga",
+        "Mueve y acomoda mercancía manualmente o con herramientas de apoyo."
+      ],
+      [
+        "Montacarguista",
+        "Maneja montacargas para movilizar mercancías pesadas dentro de un almacén."
+      ],
+      [
+        "Operador de Plataforma",
+        "Maneja plataformas elevadoras para el almacenamiento de mercancías."
+      ],
+      [
+        "Operario de Almacén",
+        "Se encarga de la recepción, almacenamiento y despacho de productos."
+      ],
+      [
+        "Recepcionista de Almacén",
+        "Registra la entrada y salida de productos en un almacén."
+      ],
+      [
+        "Recolector de Materiales",
+        "Recoge y organiza materiales de desecho o reciclables en almacenes."
+      ],
+      [
+        "Separador de Mercancía",
+        "Identifica y separa productos según pedidos o destinos específicos."
+      ],
+      [
+        "Supervisor de Almacén",
+        "Coordina y supervisa las actividades de almacenamiento y distribución."
+      ]
+    ],
+    "Artes Gráficas e Impresión": [
+      [
+        "Diseñador de calendarios",
+        "Diseña calendarios personalizados con fines promocionales o decorativos."
+      ],
+      [
+        "Diseñador de carteles",
+        "Diseña carteles publicitarios y promocionales para eventos y campañas."
+      ],
+      [
+        "Diseñador de etiquetas",
+        "Crea diseños de etiquetas para productos, considerando normativas y estética."
+      ],
+      [
+        "Diseñador de packaging",
+        "Diseña envases y embalajes para productos, combinando estética y funcionalidad."
+      ],
+      [
+        "Diseñador de tipografías",
+        "Crea fuentes tipográficas personalizadas para proyectos gráficos."
+      ],
+      [
+        "Diseñador gráfico",
+        "Crea diseños visuales para publicidad, branding y medios digitales o impresos."
+      ],
+      [
+        "Editor de imágenes",
+        "Retoca y edita fotografías e imágenes para su uso en medios impresos o digitales."
+      ],
+      [
+        "Encuadernador",
+        "Se encarga de la encuadernación de libros, revistas y otros materiales impresos."
+      ],
+      [
+        "Especialista en acabados",
+        "Aplica acabados como laminado, barnizado o troquelado a materiales impresos."
+      ],
+      [
+        "Grabador",
+        "Realiza grabados en madera, metal u otros materiales para fines artísticos o comerciales."
+      ],
+      [
+        "Ilustrador",
+        "Crea ilustraciones manuales o digitales para libros, revistas, publicidad y más."
+      ],
+      [
+        "Impresor digital",
+        "Opera impresoras digitales para producir materiales gráficos en baja y mediana escala."
+      ],
+      [
+        "Impresor offset",
+        "Opera máquinas de impresión offset para producir materiales gráficos en grandes volúmenes."
+      ],
+      [
+        "Maquetista",
+        "Diseña y organiza la disposición de textos e imágenes en revistas, libros y folletos."
+      ],
+      [
+        "Rotulista",
+        "Crea letreros y rótulos manuales o digitales para comercios y publicidad."
+      ],
+      [
+        "Serigrafista",
+        "Se especializa en la técnica de serigrafía para imprimir en textiles, carteles y otros materiales."
+      ],
+      [
+        "Técnico en impresión 3D",
+        "Opera impresoras 3D para crear prototipos y piezas gráficas tridimensionales."
+      ],
+      [
+        "Técnico en impresión textil",
+        "Se especializa en la impresión de diseños sobre telas y prendas de vestir."
+      ],
+      [
+        "Técnico en plotter de corte",
+        "Opera plotters de corte para crear gráficos adhesivos y decorativos."
+      ],
+      [
+        "Técnico en preprensa",
+        "Prepara archivos digitales para su impresión, asegurando la calidad y precisión del color."
+      ]
+    ],
+    "Artesanía y Producción Manual": [
+      [
+        "Alfarero",
+        "Modela y hornea piezas de cerámica, como vasijas y esculturas."
+      ],
+      [
+        "Carpintero artesanal",
+        "Fabrica muebles, marcos y objetos de madera de forma artesanal."
+      ],
+      [
+        "Ceramista",
+        "Diseña y moldea figuras y utensilios en barro o porcelana."
+      ],
+      [
+        "Cestería",
+        "Elabora canastas y objetos decorativos con fibras naturales como mimbre y bambú."
+      ],
+      [
+        "Encajero",
+        "Crea encajes y bordados decorativos en tela a mano."
+      ],
+      [
+        "Encuadernador artesanal",
+        "Fabrica y restaura libros y libretas con técnicas tradicionales."
+      ],
+      [
+        "Escultor",
+        "Crea esculturas en madera, piedra, metal u otros materiales."
+      ],
+      [
+        "Escultor en madera",
+        "Tallador de madera que crea figuras decorativas y utilitarias."
+      ],
+      [
+        "Fabricante de instrumentos prehispánicos",
+        "Elabora instrumentos musicales autóctonos con materiales naturales."
+      ],
+      [
+        "Forjador de metales",
+        "Trabaja el metal para crear herramientas, ornamentos y estructuras."
+      ],
+      [
+        "Joyería artesanal",
+        "Diseña y elabora joyas a mano con materiales como plata, oro y piedras preciosas."
+      ],
+      [
+        "Luthier",
+        "Construye y repara instrumentos musicales de cuerda como violines y guitarras."
+      ],
+      [
+        "Marroquinero",
+        "Elabora productos de cuero como bolsos, cinturones y carteras."
+      ],
+      [
+        "Modelador de velas",
+        "Produce velas decorativas y aromáticas de manera artesanal."
+      ],
+      [
+        "Pintor de arte",
+        "Realiza pinturas y obras artísticas en lienzo, madera u otros materiales."
+      ],
+      [
+        "Sastre",
+        "Diseña, confecciona y arregla prendas de vestir a medida."
+      ],
+      [
+        "Tatuador",
+        "Dibuja y aplica tatuajes en la piel con técnicas manuales y mecánicas."
+      ],
+      [
+        "Tejedor",
+        "Teje a mano prendas y textiles en telares tradicionales o con agujas."
+      ],
+      [
+        "Vidriero artístico",
+        "Diseña y fabrica vitrales y objetos decorativos en vidrio."
+      ],
+      [
+        "Zapatero artesanal",
+        "Fabrica y repara calzado de forma manual con cuero y otros materiales."
+      ]
+    ],
+    "Asistencia y Cuidado a Personas": [
+      [
+        "Acompañante Terapéutico",
+        "Brinda apoyo emocional y social a personas con necesidades especiales."
+      ],
+      [
+        "Asistente de Personas con Discapacidad",
+        "Apoya en la movilidad y cuidado de personas con discapacidad."
+      ],
+      [
+        "Asistente de Primeros Auxilios",
+        "Brinda atención inicial ante emergencias médicas."
+      ],
+      [
+        "Asistente de Terapia Ocupacional",
+        "Colabora en la rehabilitación mediante actividades terapéuticas."
+      ],
+      [
+        "Auxiliar de Alimentación",
+        "Prepara y suministra alimentos a personas con necesidades especiales."
+      ],
+      [
+        "Auxiliar de Rehabilitación",
+        "Ayuda en terapias físicas y recuperación de pacientes."
+      ],
+      [
+        "Ayudante de Higiene Personal",
+        "Asiste en el aseo y cuidado personal de personas con movilidad reducida."
+      ],
+      [
+        "Ayudante de Movilización",
+        "Facilita el traslado de personas con movilidad reducida."
+      ],
+      [
+        "Ayudante de Residencia Geriátrica",
+        "Asiste en la atención de ancianos en hogares especializados."
+      ],
+      [
+        "Cuidador de Ancianos",
+        "Brinda asistencia a personas mayores en actividades diarias y salud básica."
+      ],
+      [
+        "Cuidador de Niños con Necesidades Especiales",
+        "Brinda atención especializada a niños con discapacidad."
+      ],
+      [
+        "Cuidador de Pacientes",
+        "Proporciona apoyo a personas enfermas o en recuperación."
+      ],
+      [
+        "Enfermero Domiciliario",
+        "Ofrece atención básica de salud en el hogar."
+      ],
+      [
+        "Entrenador de Habilidades para la Vida",
+        "Enseña independencia y habilidades básicas a personas con discapacidad."
+      ],
+      [
+        "Monitor de Actividades Recreativas",
+        "Organiza actividades para personas mayores o con discapacidad."
+      ],
+      [
+        "Niñera",
+        "Cuida y supervisa a niños en el hogar o en guarderías."
+      ],
+      [
+        "Promotor de Salud Comunitaria",
+        "Orienta a la comunidad sobre prácticas de salud y bienestar."
+      ],
+      [
+        "Terapista Alternativo",
+        "Brinda terapias complementarias como masajes o reflexología."
+      ],
+      [
+        "Trabajador de Hogar",
+        "Realiza tareas domésticas y cuida de la familia en el hogar."
+      ]
+    ],
+    "Campo y Agricultura": [
+      [
+        "Agricultor",
+        "Cultiva y cosecha productos agrícolas como frutas, verduras y cereales."
+      ],
+      [
+        "Apicultor",
+        "Cría abejas para la producción de miel y otros derivados."
+      ],
+      [
+        "Avicultor",
+        "Cría y maneja aves de corral para la producción de carne y huevos."
+      ],
+      [
+        "Capataz agrícola",
+        "Supervisa y coordina actividades agrícolas en el campo."
+      ],
+      [
+        "Cosechador de caña de azúcar",
+        "Realiza la recolección y corte de caña de azúcar en plantaciones."
+      ],
+      [
+        "Criador de peces",
+        "Se dedica a la acuicultura, criando peces en estanques y cuerpos de agua."
+      ],
+      [
+        "Forestal",
+        "Trabaja en la reforestación y el mantenimiento de bosques."
+      ],
+      [
+        "Fruticultor",
+        "Se especializa en el cultivo de árboles frutales y la recolección de frutas."
+      ],
+      [
+        "Ganadero",
+        "Cría y cuida animales de granja como vacas, ovejas y cerdos."
+      ],
+      [
+        "Horticultor",
+        "Cultiva hortalizas y plantas ornamentales en invernaderos o campos abiertos."
+      ],
+      [
+        "Inseminador artificial",
+        "Realiza procedimientos de inseminación en ganado para mejorar la reproducción."
+      ],
+      [
+        "Jornalero agrícola",
+        "Realiza labores generales en el campo como siembra, riego y cosecha."
+      ],
+      [
+        "Ordeñador",
+        "Realiza el ordeño de vacas y otros animales para la producción de leche."
+      ],
+      [
+        "Podador",
+        "Realiza la poda de árboles y arbustos para mejorar su crecimiento y producción."
+      ],
+      [
+        "Productor de flores",
+        "Cultiva y comercializa flores para su venta en mercados locales e internacionales."
+      ],
+      [
+        "Recolector de café",
+        "Cosecha granos de café en plantaciones especializadas."
+      ],
+      [
+        "Regador de cultivos",
+        "Maneja sistemas de riego para garantizar el crecimiento de los cultivos."
+      ],
+      [
+        "Trabajador de cultivos hidropónicos",
+        "Maneja cultivos sin suelo en sistemas de producción hidropónica."
+      ],
+      [
+        "Tractorista",
+        "Opera maquinaria agrícola como tractores y cosechadoras."
+      ],
+      [
+        "Viverista",
+        "Se encarga de la producción y venta de plantas en viveros."
+      ]
+    ],
+    "Construcción y Mantenimiento": [
+      [
+        "Albañil",
+        "Realiza trabajos de construcción, reparación y remodelación de edificaciones."
+      ],
+      [
+        "Ayudante de albañilería",
+        "Asiste a albañiles en la preparación de mezclas y levantamiento de estructuras."
+      ],
+      [
+        "Carpintero",
+        "Trabaja con madera para fabricar, reparar o instalar muebles y estructuras."
+      ],
+      [
+        "Colocador de paneles solares",
+        "Instala y mantiene sistemas de energía solar en techos y terrenos."
+      ],
+      [
+        "Electricista",
+        "Realiza instalaciones y mantenimiento de sistemas eléctricos en viviendas y empresas."
+      ],
+      [
+        "Herrería y soldadura",
+        "Diseña, fabrica y repara estructuras metálicas mediante soldadura y corte de metal."
+      ],
+      [
+        "Impermeabilizador",
+        "Aplica tratamientos para evitar filtraciones de agua en techos y paredes."
+      ],
+      [
+        "Instalador de drywall",
+        "Monta y ajusta paneles de yeso en paredes y techos."
+      ],
+      [
+        "Instalador de pisos",
+        "Coloca y repara pisos de cerámica, madera, vinilo o concreto pulido."
+      ],
+      [
+        "Instalador de pladur",
+        "Especialista en la instalación de paneles de yeso y sistemas de tabiquería seca."
+      ],
+      [
+        "Instalador de vidrios y ventanas",
+        "Coloca y repara ventanas, puertas de vidrio y mamparas."
+      ],
+      [
+        "Jardinero paisajista",
+        "Diseña y mantiene áreas verdes en jardines, parques y exteriores."
+      ],
+      [
+        "Maestro de obra",
+        "Coordina y supervisa el trabajo en una obra de construcción."
+      ],
+      [
+        "Mantenimiento de aire acondicionado",
+        "Instala y repara sistemas de climatización en viviendas y empresas."
+      ],
+      [
+        "Obrero de construcción",
+        "Realiza tareas generales de apoyo en la construcción de edificaciones."
+      ],
+      [
+        "Operador de maquinaria pesada",
+        "Maneja equipos como retroexcavadoras, bulldozers y grúas en construcciones."
+      ],
+      [
+        "Pintor de obra",
+        "Aplica pintura en interiores y exteriores de edificaciones."
+      ],
+      [
+        "Plomero",
+        "Instala y repara tuberías, desagües, sanitarios y sistemas de agua potable."
+      ],
+      [
+        "Techador",
+        "Instala y repara techos de teja, lámina, asfalto u otros materiales."
+      ],
+      [
+        "Yesero",
+        "Trabaja con yeso para acabados en paredes y techos."
+      ]
+    ],
+    "Cuidado de Mascotas": [
+      [
+        "Cuidador de aves",
+        "Se encarga del cuidado y alimentación de aves domésticas o exóticas."
+      ],
+      [
+        "Cuidador de gatos",
+        "Se especializa en el cuidado y atención de gatos, incluyendo alimentación y limpieza."
+      ],
+      [
+        "Cuidador de mascotas",
+        "Cuida y supervisa mascotas en ausencia de sus dueños, en casa o en guarderías."
+      ],
+      [
+        "Cuidador de mascotas en eventos",
+        "Supervisa y cuida mascotas durante eventos como bodas o fiestas."
+      ],
+      [
+        "Cuidador de mascotas mayores",
+        "Brinda atención especializada a mascotas ancianas o con necesidades especiales."
+      ],
+      [
+        "Cuidador de peces",
+        "Mantiene acuarios y cuida de peces, incluyendo limpieza y alimentación."
+      ],
+      [
+        "Entrenador de perros",
+        "Entrena a perros en obediencia, trucos o comportamientos específicos."
+      ],
+      [
+        "Especialista en animales exóticos",
+        "Cuida de mascotas no convencionales como hurones, conejos o erizos."
+      ],
+      [
+        "Especialista en comportamiento animal",
+        "Ayuda a corregir problemas de conducta en mascotas."
+      ],
+      [
+        "Especialista en nutrición animal",
+        "Asesora sobre dietas y suplementos para mejorar la salud de las mascotas."
+      ],
+      [
+        "Especialista en reptiles",
+        "Cuida y mantiene reptiles como mascotas, incluyendo su alimentación y hábitat."
+      ],
+      [
+        "Fabricante de accesorios para mascotas",
+        "Crea collares, correas, juguetes y otros accesorios para mascotas."
+      ],
+      [
+        "Fabricante de alimentos para mascotas",
+        "Prepara comidas caseras o especializadas para mascotas."
+      ],
+      [
+        "Paseador de perros",
+        "Pasea y ejercita perros en parques o zonas designadas."
+      ],
+      [
+        "Peluquero canino",
+        "Se encarga del baño, corte de pelo y arreglo de mascotas, especialmente perros."
+      ],
+      [
+        "Técnico en estética felina",
+        "Se especializa en el arreglo y cuidado de gatos, incluyendo baños y cortes de pelo."
+      ],
+      [
+        "Técnico en fisioterapia animal",
+        "Aplica terapias físicas para rehabilitar mascotas con lesiones."
+      ],
+      [
+        "Técnico en higiene dental animal",
+        "Limpia y cuida los dientes de mascotas para prevenir enfermedades."
+      ],
+      [
+        "Técnico en primeros auxilios para mascotas",
+        "Brinda atención inmediata en caso de emergencias con animales."
+      ],
+      [
+        "Veterinario empírico",
+        "Brinda atención básica de salud y primeros auxilios a mascotas."
+      ]
+    ],
+    "Diseño y Decoración": [
+      [
+        "Artesano en Vidriería",
+        "Diseña y elabora elementos decorativos en vidrio."
+      ],
+      [
+        "Carpintero Decorativo",
+        "Elabora muebles y elementos decorativos en madera."
+      ],
+      [
+        "Decorador de Interiores",
+        "Diseña y ambienta espacios interiores según necesidades y gustos del cliente."
+      ],
+      [
+        "Dibujante de Bocetos",
+        "Realiza dibujos y bosquejos de proyectos decorativos."
+      ],
+      [
+        "Diseñador de Cortinas",
+        "Confecciona y adapta cortinas y persianas decorativas."
+      ],
+      [
+        "Diseñador de Escenografías",
+        "Crea decorados para teatro, cine y eventos."
+      ],
+      [
+        "Diseñador de Jardines",
+        "Planifica y decora jardines con vegetación y elementos ornamentales."
+      ],
+      [
+        "Diseñador de Muebles",
+        "Crea mobiliario a medida para espacios específicos."
+      ],
+      [
+        "Diseñador de Papel Tapiz",
+        "Crea y coloca revestimientos decorativos en paredes."
+      ],
+      [
+        "Elaborador de Manualidades",
+        "Crea artículos decorativos artesanales."
+      ],
+      [
+        "Escaparatista",
+        "Diseña y organiza vitrinas comerciales para atraer clientes."
+      ],
+      [
+        "Escultor Decorativo",
+        "Elabora esculturas para ambientación y decoración de espacios."
+      ],
+      [
+        "Especialista en Feng Shui",
+        "Asesora en la organización de espacios según principios de armonía."
+      ],
+      [
+        "Especialista en Iluminación",
+        "Diseña y ajusta iluminación para crear ambientes específicos."
+      ],
+      [
+        "Especialista en Restauración",
+        "Restaura muebles y objetos decorativos antiguos."
+      ],
+      [
+        "Florista",
+        "Elabora arreglos florales para eventos y decoración."
+      ],
+      [
+        "Pintor de Casas",
+        "Aplica pintura en paredes y techos para embellecer espacios."
+      ],
+      [
+        "Pintor de Murales",
+        "Crea murales decorativos en interiores y exteriores."
+      ],
+      [
+        "Rotulista",
+        "Diseña y pinta rótulos decorativos y comerciales."
+      ],
+      [
+        "Tapicero",
+        "Repara y confecciona muebles tapizados con diferentes materiales."
+      ]
+    ],
+    "Educación y Tutoría": [
+      [
+        "Asistente educativo",
+        "Apoya a maestros en la organización de clases y cuidado de estudiantes."
+      ],
+      [
+        "Capacitador/a empresarial",
+        "Imparte cursos de formación en habilidades profesionales para empleados."
+      ],
+      [
+        "Docente de educación para adultos",
+        "Imparte clases de alfabetización o educación básica a personas adultas."
+      ],
+      [
+        "Docente de preescolar",
+        "Brinda educación inicial a niños pequeños en jardines de infancia."
+      ],
+      [
+        "Instructor/a de arte",
+        "Enseña pintura, escultura y otras disciplinas artísticas a niños y adultos."
+      ],
+      [
+        "Instructor/a de danza",
+        "Enseña diferentes estilos de baile como ballet, salsa o hip-hop."
+      ],
+      [
+        "Instructor/a de informática",
+        "Capacita en el uso de computadoras, software y herramientas digitales."
+      ],
+      [
+        "Instructor/a de manualidades",
+        "Enseña técnicas de artesanías como tejido, cerámica y bisutería."
+      ],
+      [
+        "Instructor/a de música",
+        "Da clases de instrumentos musicales como piano, guitarra o violín."
+      ],
+      [
+        "Instructor/a de técnicas de estudio",
+        "Enseña estrategias para mejorar la organización y el aprendizaje."
+      ],
+      [
+        "Monitor/a de actividades extracurriculares",
+        "Organiza actividades recreativas y educativas fuera del horario escolar."
+      ],
+      [
+        "Preparador/a para exámenes",
+        "Ayuda a estudiantes a prepararse para pruebas como el SAT, TOEFL o ingreso a la universidad."
+      ],
+      [
+        "Profesor/a de educación especial",
+        "Asiste a estudiantes con necesidades educativas especiales en su aprendizaje."
+      ],
+      [
+        "Profesor/a de educación física",
+        "Guía actividades deportivas y de acondicionamiento físico para estudiantes."
+      ],
+      [
+        "Profesor/a de idiomas",
+        "Enseña idiomas extranjeros como inglés, francés o alemán de manera presencial o en línea."
+      ],
+      [
+        "Profesor/a de oratoria y comunicación",
+        "Ayuda a mejorar habilidades de expresión verbal y comunicación efectiva."
+      ],
+      [
+        "Profesor/a de refuerzo académico",
+        "Brinda apoyo adicional a estudiantes con dificultades en ciertas materias."
+      ],
+      [
+        "Tutor/a de primaria",
+        "Brinda apoyo escolar a niños en materias básicas como matemáticas, español y ciencias."
+      ],
+      [
+        "Tutor/a de secundaria",
+        "Ayuda a estudiantes en materias más avanzadas como álgebra, física o literatura."
+      ],
+      [
+        "Tutor/a en línea",
+        "Ofrece asesoría académica virtual en diversas materias."
+      ]
+    ],
+    "Energía y Fontanería": [
+      [
+        "Electricista automotriz",
+        "Repara y da mantenimiento a los sistemas eléctricos de vehículos."
+      ],
+      [
+        "Electricista industrial",
+        "Realiza instalaciones y mantenimiento de sistemas eléctricos en fábricas y empresas."
+      ],
+      [
+        "Electricista residencial",
+        "Instala, repara y mantiene sistemas eléctricos en viviendas."
+      ],
+      [
+        "Especialista en eficiencia energética",
+        "Optimiza el consumo de energía en hogares y empresas mediante tecnología eficiente."
+      ],
+      [
+        "Fontanero (plomero)",
+        "Repara e instala tuberías, grifos y sistemas de agua en hogares y empresas."
+      ],
+      [
+        "Instalador de cableado eléctrico",
+        "Coloca y organiza el cableado eléctrico en edificaciones nuevas o remodelaciones."
+      ],
+      [
+        "Instalador de calentadores de agua",
+        "Coloca y repara calentadores eléctricos o de gas en viviendas y negocios."
+      ],
+      [
+        "Instalador de gas domiciliario",
+        "Coloca y revisa tuberías y sistemas de gas en viviendas y comercios."
+      ],
+      [
+        "Instalador de redes de alcantarillado",
+        "Trabaja en la construcción y reparación de sistemas de drenaje y alcantarillado."
+      ],
+      [
+        "Soldador de tuberías",
+        "Une y repara tuberías metálicas para agua, gas y petróleo mediante soldadura."
+      ],
+      [
+        "Técnico en aire acondicionado",
+        "Instala y repara sistemas de climatización y ventilación."
+      ],
+      [
+        "Técnico en baterías y acumuladores",
+        "Repara y da mantenimiento a baterías para sistemas eléctricos y solares."
+      ],
+      [
+        "Técnico en bombas de agua",
+        "Mantiene e instala bombas de agua para edificios y sistemas de riego."
+      ],
+      [
+        "Técnico en domótica",
+        "Instala sistemas automatizados de energía y agua en hogares inteligentes."
+      ],
+      [
+        "Técnico en energía eólica",
+        "Realiza mantenimiento e instalación de aerogeneradores para energía renovable."
+      ],
+      [
+        "Técnico en generadores eléctricos",
+        "Realiza mantenimiento e instalación de generadores de electricidad."
+      ],
+      [
+        "Técnico en paneles solares",
+        "Instala y mantiene sistemas de energía solar en viviendas y negocios."
+      ],
+      [
+        "Técnico en redes eléctricas",
+        "Trabaja en el tendido y mantenimiento de redes de distribución eléctrica."
+      ],
+      [
+        "Técnico en refrigeración",
+        "Repara e instala sistemas de refrigeración comercial y doméstica."
+      ],
+      [
+        "Técnico en subestaciones eléctricas",
+        "Mantiene y supervisa equipos de alta tensión en estaciones eléctricas."
+      ]
+    ],
+    "Eventos y Entretenimiento": [
+      [
+        "Acróbata o artista circense",
+        "Ejecuta actos acrobáticos en eventos y espectáculos de circo."
+      ],
+      [
+        "Actor o doble",
+        "Participa en producciones teatrales, cinematográficas o comerciales."
+      ],
+      [
+        "Animador de fiestas",
+        "Dirige y organiza actividades recreativas en fiestas y eventos."
+      ],
+      [
+        "Bailarín o coreógrafo",
+        "Realiza presentaciones de baile en eventos y espectáculos."
+      ],
+      [
+        "Camarógrafo de eventos",
+        "Filma y edita videos de bodas, cumpleaños y otros eventos."
+      ],
+      [
+        "Cantante en vivo",
+        "Interpreta canciones en eventos, bares y restaurantes."
+      ],
+      [
+        "Caricaturista de eventos",
+        "Dibuja caricaturas en vivo en bodas, fiestas y ferias."
+      ],
+      [
+        "DJ",
+        "Mezcla y reproduce música en eventos, discotecas y fiestas privadas."
+      ],
+      [
+        "Decorador de eventos",
+        "Diseña y monta la ambientación y decoración para celebraciones."
+      ],
+      [
+        "Fotógrafo de eventos",
+        "Captura momentos especiales en bodas, fiestas y celebraciones."
+      ],
+      [
+        "Iluminador de eventos",
+        "Maneja la iluminación y efectos especiales en espectáculos y conciertos."
+      ],
+      [
+        "Maestro de ceremonias",
+        "Conduce y organiza eventos formales e informales."
+      ],
+      [
+        "Mago o ilusionista",
+        "Presenta trucos de magia e ilusionismo en eventos y celebraciones."
+      ],
+      [
+        "Malabarista",
+        "Realiza espectáculos de malabares en ferias, eventos y espacios públicos."
+      ],
+      [
+        "Maquillador artístico",
+        "Realiza maquillaje temático y de fantasía en eventos y espectáculos."
+      ],
+      [
+        "Músico en vivo",
+        "Interpreta música en bodas, fiestas, restaurantes y eventos privados."
+      ],
+      [
+        "Organizador de eventos",
+        "Planifica y coordina bodas, fiestas y eventos corporativos."
+      ],
+      [
+        "Payaso",
+        "Realiza espectáculos de humor y entretenimiento en eventos infantiles."
+      ],
+      [
+        "Sonidista",
+        "Opera equipos de sonido en conciertos, eventos y presentaciones en vivo."
+      ],
+      [
+        "Vestuarista o diseñador de disfraces",
+        "Crea vestuarios para presentaciones, fiestas y obras teatrales."
+      ]
+    ],
+    "Fotografía y Video": [
+      [
+        "Dronista",
+        "Opera drones para capturar imágenes aéreas y videos en exteriores."
+      ],
+      [
+        "Editor de video",
+        "Se encarga de la postproducción, montaje y efectos especiales en videos."
+      ],
+      [
+        "Especialista en retoque digital",
+        "Edita y retoca fotografías para mejorar su calidad o aplicar efectos."
+      ],
+      [
+        "Fotógrafo de alimentos",
+        "Se enfoca en tomar fotos atractivas de platos y productos alimenticios."
+      ],
+      [
+        "Fotógrafo de arquitectura",
+        "Captura imágenes de edificios, estructuras y espacios urbanos."
+      ],
+      [
+        "Fotógrafo de bodas",
+        "Se especializa en cubrir todos los momentos de una boda, desde la ceremonia hasta la recepción."
+      ],
+      [
+        "Fotógrafo de conciertos",
+        "Captura imágenes en vivo durante eventos musicales y conciertos."
+      ],
+      [
+        "Fotógrafo de deportes",
+        "Captura imágenes en eventos deportivos, resaltando la acción y el movimiento."
+      ],
+      [
+        "Fotógrafo de eventos",
+        "Documenta eventos sociales como bodas, cumpleaños y fiestas."
+      ],
+      [
+        "Fotógrafo de moda",
+        "Trabaja en sesiones fotográficas para catálogos, revistas y campañas de moda."
+      ],
+      [
+        "Fotógrafo de paisajes",
+        "Se especializa en capturar imágenes de naturaleza y entornos urbanos."
+      ],
+      [
+        "Fotógrafo de productos",
+        "Captura imágenes de productos para catálogos, e-commerce y publicidad."
+      ],
+      [
+        "Fotógrafo de retratos",
+        "Captura imágenes de personas, enfocándose en expresiones y detalles personales."
+      ],
+      [
+        "Fotógrafo de stock",
+        "Produce imágenes genéricas para ser vendidas en bancos de imágenes."
+      ],
+      [
+        "Fotógrafo de vida salvaje",
+        "Se especializa en fotografiar animales y naturaleza en su hábitat natural."
+      ],
+      [
+        "Fotógrafo documental",
+        "Crea series fotográficas que cuentan historias o documentan realidades sociales."
+      ],
+      [
+        "Fotógrafo publicitario",
+        "Crea imágenes para anuncios, carteles y campañas de marketing."
+      ],
+      [
+        "Operador de cámara",
+        "Maneja equipos de cámara para grabaciones en estudios o exteriores."
+      ],
+      [
+        "Técnico en iluminación",
+        "Diseña y configura la iluminación para sesiones fotográficas o grabaciones."
+      ],
+      [
+        "Videógrafo",
+        "Graba y edita videos para eventos, proyectos personales o comerciales."
+      ]
+    ],
+    "Instalación de Equipos": [
+      [
+        "Instalador de antenas",
+        "Coloca y ajusta antenas de televisión, radio y telecomunicaciones."
+      ],
+      [
+        "Instalador de ascensores",
+        "Coloca y da mantenimiento a elevadores en edificios y viviendas."
+      ],
+      [
+        "Instalador de electrodomésticos",
+        "Coloca y ajusta equipos como neveras, lavadoras y hornos en hogares."
+      ],
+      [
+        "Instalador de estaciones de carga para vehículos eléctricos",
+        "Monta y configura puntos de carga para automóviles eléctricos."
+      ],
+      [
+        "Instalador de mobiliario comercial",
+        "Monta estanterías, mostradores y otros equipos en tiendas y oficinas."
+      ],
+      [
+        "Instalador de paneles solares",
+        "Monta y ajusta sistemas de energía solar en viviendas y empresas."
+      ],
+      [
+        "Instalador de persianas eléctricas",
+        "Coloca y ajusta sistemas de persianas automáticas para ventanas y puertas."
+      ],
+      [
+        "Instalador de puertas automáticas",
+        "Coloca y ajusta sistemas de apertura y cierre automático de puertas y portones."
+      ],
+      [
+        "Instalador de redes de internet",
+        "Monta y configura conexiones de fibra óptica y redes inalámbricas."
+      ],
+      [
+        "Instalador de sistemas de riego",
+        "Monta y ajusta equipos para el riego automatizado en jardines y cultivos."
+      ],
+      [
+        "Instalador de sistemas de sonido",
+        "Monta y calibra equipos de audio en hogares, vehículos y eventos."
+      ],
+      [
+        "Instalador de techos y cubiertas",
+        "Monta estructuras de techado para viviendas y edificios comerciales."
+      ],
+      [
+        "Técnico en instalación de GPS",
+        "Coloca y configura sistemas de geolocalización en vehículos y equipos móviles."
+      ],
+      [
+        "Técnico en instalación de aire acondicionado",
+        "Instala y da mantenimiento a sistemas de climatización."
+      ],
+      [
+        "Técnico en instalación de alarmas",
+        "Coloca y configura sistemas de seguridad para hogares y comercios."
+      ],
+      [
+        "Técnico en instalación de bombas de agua",
+        "Monta y ajusta equipos para el suministro y distribución de agua."
+      ],
+      [
+        "Técnico en instalación de cableado estructurado",
+        "Monta sistemas de cableado para redes de datos y telefonía."
+      ],
+      [
+        "Técnico en instalación de cámaras de seguridad",
+        "Coloca y configura sistemas de videovigilancia en hogares y negocios."
+      ],
+      [
+        "Técnico en instalación de luminarias LED",
+        "Coloca y ajusta sistemas de iluminación eficiente en hogares y empresas."
+      ],
+      [
+        "Técnico en instalación de redes eléctricas",
+        "Monta y ajusta cableado para distribución de energía en hogares y empresas."
+      ]
+    ],
+    "Jardinería y Paisajismo": [
+      [
+        "Diseñador de exteriores",
+        "Crea diseños funcionales y estéticos para patios, terrazas y jardines."
+      ],
+      [
+        "Diseñador de jardines acuáticos",
+        "Crea y mantiene estanques, fuentes y jardines con elementos acuáticos."
+      ],
+      [
+        "Especialista en césped",
+        "Instala, mantiene y repara césped natural o artificial en jardines y campos."
+      ],
+      [
+        "Especialista en huertos urbanos",
+        "Diseña y mantiene huertos en espacios urbanos o domésticos."
+      ],
+      [
+        "Especialista en plantas ornamentales",
+        "Cultiva y cuida plantas decorativas para jardines y espacios interiores."
+      ],
+      [
+        "Especialista en xerojardinería",
+        "Diseña jardines con bajo consumo de agua y plantas resistentes a la sequía."
+      ],
+      [
+        "Especialista en árboles frutales",
+        "Cultiva y poda árboles frutales para maximizar su producción."
+      ],
+      [
+        "Instalador de césped sintético",
+        "Coloca y mantiene césped artificial en áreas residenciales o deportivas."
+      ],
+      [
+        "Instalador de iluminación exterior",
+        "Diseña e instala sistemas de iluminación para jardines y exteriores."
+      ],
+      [
+        "Instalador de riego",
+        "Instala y mantiene sistemas de riego automático para jardines y áreas verdes."
+      ],
+      [
+        "Jardinero",
+        "Se encarga del cuidado, mantenimiento y diseño de jardines y áreas verdes."
+      ],
+      [
+        "Mantenimiento de áreas verdes",
+        "Se encarga de la limpieza, poda y cuidado de parques y jardines públicos."
+      ],
+      [
+        "Paisajista",
+        "Diseña y planifica espacios exteriores, combinando plantas, caminos y estructuras."
+      ],
+      [
+        "Podador",
+        "Especialista en la poda de árboles y arbustos para mantener su salud y forma."
+      ],
+      [
+        "Técnico en control de plagas",
+        "Aplica tratamientos para prevenir y eliminar plagas en plantas y jardines."
+      ],
+      [
+        "Técnico en jardines verticales",
+        "Instala y mantiene estructuras de jardines verticales en paredes y fachadas."
+      ],
+      [
+        "Técnico en recuperación de áreas verdes",
+        "Restaura y revitaliza jardines y espacios naturales degradados."
+      ],
+      [
+        "Técnico en suelos y abonos",
+        "Analiza y mejora la calidad del suelo para el crecimiento óptimo de plantas."
+      ],
+      [
+        "Técnico en topiaria",
+        "Especialista en dar formas artísticas a arbustos y árboles mediante la poda."
+      ],
+      [
+        "Viverista",
+        "Cultiva y cuida plantas en viveros para su venta o trasplante."
+      ]
+    ],
+    "Limpieza": [
+      [
+        "Aseador/a de hospitales",
+        "Desinfecta y mantiene la higiene en hospitales, clínicas y centros médicos."
+      ],
+      [
+        "Conserje",
+        "Supervisa y realiza labores de limpieza y mantenimiento en edificios y residencias."
+      ],
+      [
+        "Empleado/a de limpieza doméstica",
+        "Realiza la limpieza y mantenimiento del hogar, incluyendo pisos, baños y cocina."
+      ],
+      [
+        "Especialista en limpieza de alfombras",
+        "Limpia y desinfecta alfombras y tapetes en hogares y negocios."
+      ],
+      [
+        "Lavaplatos",
+        "Limpia utensilios, vajillas y equipos de cocina en restaurantes y cafeterías."
+      ],
+      [
+        "Limpieza de aeronaves",
+        "Realiza el aseo interno de aviones y salas de espera en aeropuertos."
+      ],
+      [
+        "Limpieza de colegios y universidades",
+        "Limpia y desinfecta aulas, pasillos y baños en instituciones educativas."
+      ],
+      [
+        "Limpieza de estacionamientos",
+        "Barre y recoge desechos en estacionamientos y garajes públicos o privados."
+      ],
+      [
+        "Limpieza de restaurantes y bares",
+        "Mantiene la higiene en las áreas de servicio y mesas de restaurantes y bares."
+      ],
+      [
+        "Limpieza de transporte público",
+        "Encargado del aseo de autobuses, trenes y estaciones de transporte."
+      ],
+      [
+        "Limpieza de vidrios y fachadas",
+        "Lava y mantiene en buen estado ventanas y fachadas de edificios."
+      ],
+      [
+        "Limpieza en almacenes y bodegas",
+        "Ordena y limpia los espacios de almacenamiento de mercancías."
+      ],
+      [
+        "Limpieza en centros comerciales",
+        "Mantiene en buen estado los pasillos, baños y áreas comunes de los centros comerciales."
+      ],
+      [
+        "Limpieza en hoteles",
+        "Realiza el aseo y orden de habitaciones, baños y áreas comunes en hoteles."
+      ],
+      [
+        "Limpieza industrial",
+        "Se encarga de la limpieza en fábricas y áreas de producción."
+      ],
+      [
+        "Mantenimiento de piscinas",
+        "Limpia y da mantenimiento a piscinas en casas, hoteles y clubes."
+      ],
+      [
+        "Operario/a de lavandería",
+        "Lava, seca y plancha ropa y textiles en lavanderías comerciales."
+      ],
+      [
+        "Operario/a de reciclaje",
+        "Clasifica y limpia materiales reciclables en plantas de reciclaje o centros de acopio."
+      ],
+      [
+        "Personal de limpieza en oficinas",
+        "Encargado de mantener limpias las oficinas, salas de reuniones y áreas comunes."
+      ],
+      [
+        "Técnico/a en control de plagas",
+        "Elimina y previene plagas en hogares y negocios."
+      ]
+    ],
+    "Mensajería y Entrega": [
+      [
+        "Auxiliar de Reparto",
+        "Asiste en la entrega de mercancía y apoyo logístico al conductor."
+      ],
+      [
+        "Cargador de Paquetes",
+        "Ayuda en la carga y descarga de mercancía para su distribución."
+      ],
+      [
+        "Conductor de Entregas a Domicilio",
+        "Se encarga de transportar y entregar pedidos a domicilio."
+      ],
+      [
+        "Conductor de Reparto",
+        "Maneja vehículos de reparto y se encarga de la entrega de productos."
+      ],
+      [
+        "Courier Express",
+        "Entrega paquetes urgentes con rapidez y eficiencia."
+      ],
+      [
+        "Despachador de Pedidos",
+        "Organiza y entrega pedidos a clientes o puntos de distribución."
+      ],
+      [
+        "Distribuidor de Prensa",
+        "Entrega periódicos y revistas a suscriptores o puntos de venta."
+      ],
+      [
+        "Distribuidor de Publicidad",
+        "Reparte volantes, folletos y material publicitario en diversas zonas."
+      ],
+      [
+        "Entregador de Medicamentos",
+        "Distribuye productos farmacéuticos a farmacias o domicilios."
+      ],
+      [
+        "Mensajero Administrativo",
+        "Realiza entregas de documentos entre oficinas y clientes."
+      ],
+      [
+        "Mensajero Motorizado",
+        "Entrega documentos y paquetes utilizando una motocicleta."
+      ],
+      [
+        "Mensajero a Pie",
+        "Realiza entregas de documentos y paquetes caminando en áreas urbanas."
+      ],
+      [
+        "Mensajero de Instituciones",
+        "Entrega documentos y paquetes entre entidades gubernamentales o privadas."
+      ],
+      [
+        "Mensajero en Bicicleta",
+        "Transporta paquetes y correspondencia en bicicleta."
+      ],
+      [
+        "Recolector de Encomiendas",
+        "Recoge paquetes de diferentes ubicaciones para su posterior entrega."
+      ],
+      [
+        "Repartidor de Alimentos",
+        "Entrega pedidos de comida a domicilio desde restaurantes o cocinas."
+      ],
+      [
+        "Repartidor de Paquetería",
+        "Entrega paquetes a clientes de tiendas en línea o comercios."
+      ],
+      [
+        "Repartidor de Supermercado",
+        "Lleva compras de supermercado a los hogares de los clientes."
+      ],
+      [
+        "Repartidor en Vehículo",
+        "Distribuye mercancías en un vehículo de carga ligera o furgoneta."
+      ],
+      [
+        "Transportador de Carga Ligera",
+        "Mueve mercancías de pequeño volumen entre almacenes y clientes."
+      ]
+    ],
+    "Organización de Eventos": [
+      [
+        "Animador de Eventos",
+        "Dirige y entretiene al público en actividades y celebraciones."
+      ],
+      [
+        "Catering para Eventos",
+        "Prepara y distribuye alimentos en eventos."
+      ],
+      [
+        "Coordinador de Banquetes",
+        "Supervisa la logística y servicio de banquetes en eventos."
+      ],
+      [
+        "Coordinador de Invitaciones",
+        "Diseña y distribuye invitaciones para eventos."
+      ],
+      [
+        "Coordinador de Logística",
+        "Gestiona proveedores, transportes y recursos para eventos."
+      ],
+      [
+        "DJ para Eventos",
+        "Musicaliza y ambienta fiestas y eventos especiales."
+      ],
+      [
+        "Decorador de Eventos",
+        "Diseña y ambienta espacios para celebraciones y eventos."
+      ],
+      [
+        "Especialista en Protocolo",
+        "Asesora en normas y etiquetas para eventos formales."
+      ],
+      [
+        "Florista para Eventos",
+        "Diseña arreglos florales para bodas, fiestas y ceremonias."
+      ],
+      [
+        "Fotógrafo de Eventos",
+        "Captura momentos importantes en eventos y celebraciones."
+      ],
+      [
+        "Guía de Eventos Turísticos",
+        "Coordina y dirige actividades turísticas organizadas."
+      ],
+      [
+        "Maestro de Ceremonias",
+        "Conduce y presenta eventos formales e informales."
+      ],
+      [
+        "Montador de Escenarios",
+        "Arma y desmonta estructuras para eventos y espectáculos."
+      ],
+      [
+        "Organizador de Bodas",
+        "Planifica y coordina bodas y ceremonias especiales."
+      ],
+      [
+        "Planificador de Eventos",
+        "Organiza y coordina eventos sociales y corporativos."
+      ],
+      [
+        "Productor de Eventos",
+        "Supervisa la ejecución de eventos en vivo."
+      ],
+      [
+        "Técnico en Iluminación",
+        "Ajusta y opera sistemas de iluminación para eventos."
+      ],
+      [
+        "Técnico en Pirotecnia",
+        "Maneja y ejecuta espectáculos de fuegos artificiales."
+      ],
+      [
+        "Técnico en Sonido",
+        "Maneja equipos de sonido y audio para eventos."
+      ],
+      [
+        "Videógrafo de Eventos",
+        "Realiza grabaciones y ediciones de video de eventos."
+      ]
+    ],
+    "Reciclaje y Gestión de Residuos": [
+      [
+        "Clasificador de Materiales",
+        "Separa y organiza materiales reciclables en centros de acopio."
+      ],
+      [
+        "Compactador de Cartón",
+        "Opera maquinaria para prensar y reducir volumen de cartón reciclable."
+      ],
+      [
+        "Encargado de Centro de Acopio",
+        "Coordina la recepción y distribución de materiales reciclables."
+      ],
+      [
+        "Encargado de Punto Ecológico",
+        "Administra y organiza puntos de recolección de reciclaje en comunidades."
+      ],
+      [
+        "Gestor de Residuos Peligrosos",
+        "Maneja y transporta residuos tóxicos o peligrosos siguiendo normativas."
+      ],
+      [
+        "Inspector de Residuos",
+        "Verifica y controla el manejo adecuado de residuos en empresas y comunidades."
+      ],
+      [
+        "Lavador de Contenedores",
+        "Limpia y desinfecta contenedores de residuos y reciclaje."
+      ],
+      [
+        "Operador de Máquina Trituradora",
+        "Maneja equipos para triturar residuos y facilitar su procesamiento."
+      ],
+      [
+        "Operario de Planta de Biogás",
+        "Procesa residuos orgánicos para la generación de energía renovable."
+      ],
+      [
+        "Operario de Planta de Reciclaje",
+        "Maneja maquinaria para procesar y transformar residuos reciclables."
+      ],
+      [
+        "Reciclador Artesanal",
+        "Reutiliza materiales reciclables para fabricar productos artesanales."
+      ],
+      [
+        "Recolector de Aceites Usados",
+        "Recoge aceites usados para su tratamiento y reciclaje."
+      ],
+      [
+        "Recolector de Chatarra",
+        "Recoge y transporta metales y otros materiales reutilizables."
+      ],
+      [
+        "Recolector de Neumáticos Usados",
+        "Recoge llantas usadas para su reciclaje o reutilización."
+      ],
+      [
+        "Recolector de Residuos",
+        "Recoge basura y desechos en calles, hogares y empresas."
+      ],
+      [
+        "Recolector de Residuos Electrónicos",
+        "Recoge y separa equipos electrónicos obsoletos para su reciclaje."
+      ],
+      [
+        "Recolector de Vidrio",
+        "Recoge y separa envases y materiales de vidrio para su reutilización."
+      ],
+      [
+        "Recuperador de Metales",
+        "Extrae y clasifica metales preciosos de equipos y materiales reciclados."
+      ],
+      [
+        "Separador de Plásticos",
+        "Clasifica distintos tipos de plásticos para su reciclaje."
+      ],
+      [
+        "Técnico en Compostaje",
+        "Transforma residuos orgánicos en abono mediante procesos de compostaje."
+      ]
+    ],
+    "Recuperación y Restauración": [
+      [
+        "Restaurador de cerámica",
+        "Repara y restaura piezas de cerámica y porcelana, incluyendo pegado y pintura."
+      ],
+      [
+        "Restaurador de edificios históricos",
+        "Se encarga de la conservación y restauración de estructuras arquitectónicas antiguas."
+      ],
+      [
+        "Restaurador de esculturas",
+        "Repara y conserva esculturas de diversos materiales como madera, piedra o metal."
+      ],
+      [
+        "Restaurador de fotografías",
+        "Repara y conserva fotografías antiguas, eliminando daños y restaurando detalles."
+      ],
+      [
+        "Restaurador de herramientas antiguas",
+        "Recupera y restaura herramientas históricas o de colección."
+      ],
+      [
+        "Restaurador de instrumentos científicos",
+        "Se encarga de la restauración de instrumentos científicos antiguos o de colección."
+      ],
+      [
+        "Restaurador de instrumentos musicales",
+        "Repara y restaura instrumentos musicales antiguos o dañados."
+      ],
+      [
+        "Restaurador de juguetes antiguos",
+        "Repara y restaura juguetes clásicos o de colección."
+      ],
+      [
+        "Restaurador de libros",
+        "Repara y conserva libros antiguos, incluyendo encuadernación y limpieza de páginas."
+      ],
+      [
+        "Restaurador de marcos",
+        "Se especializa en la restauración de marcos antiguos para cuadros y espejos."
+      ],
+      [
+        "Restaurador de metales",
+        "Limpia, repara y conserva objetos metálicos como joyas, armaduras o herramientas antiguas."
+      ],
+      [
+        "Restaurador de mosaicos",
+        "Repara y conserva mosaicos antiguos, reconstruyendo piezas dañadas."
+      ],
+      [
+        "Restaurador de muebles",
+        "Repara y restaura muebles antiguos o dañados, devolviéndoles su aspecto original."
+      ],
+      [
+        "Restaurador de objetos religiosos",
+        "Repara y conserva objetos litúrgicos y religiosos antiguos."
+      ],
+      [
+        "Restaurador de papel",
+        "Repara y conserva documentos, mapas y obras de arte en papel."
+      ],
+      [
+        "Restaurador de pinturas",
+        "Se especializa en la conservación y restauración de obras de arte pictóricas."
+      ],
+      [
+        "Restaurador de relojes",
+        "Repara y pone en funcionamiento relojes antiguos o de colección."
+      ],
+      [
+        "Restaurador de textiles",
+        "Se encarga de la conservación y reparación de telas, tapices y prendas antiguas."
+      ],
+      [
+        "Restaurador de vehículos clásicos",
+        "Recupera y restaura automóviles, motocicletas y otros vehículos antiguos."
+      ],
+      [
+        "Restaurador de vidrio",
+        "Se especializa en la reparación y conservación de objetos de vidrio y cristal."
+      ]
+    ],
+    "Reparación de Electrodomésticos": [
+      [
+        "Técnico en aire acondicionado",
+        "Instala, repara y da mantenimiento a sistemas de aire acondicionado residenciales."
+      ],
+      [
+        "Técnico en aspiradoras",
+        "Arregla aspiradoras, solucionando problemas de succión y motor."
+      ],
+      [
+        "Técnico en cafeteras industriales",
+        "Se especializa en la reparación de cafeteras para uso comercial."
+      ],
+      [
+        "Técnico en calentadores de agua",
+        "Repara y mantiene calentadores eléctricos y a gas para uso doméstico."
+      ],
+      [
+        "Técnico en cocinas y estufas",
+        "Arregla cocinas eléctricas, de gas y estufas, solucionando problemas de encendido y temperatura."
+      ],
+      [
+        "Técnico en equipos de gimnasio",
+        "Mantiene y repara máquinas y equipos de gimnasio eléctricos."
+      ],
+      [
+        "Técnico en extractores de aire",
+        "Repara y mantiene extractores de aire y campanas de cocina."
+      ],
+      [
+        "Técnico en hornos microondas",
+        "Repara fallas en hornos microondas, incluyendo problemas de calentamiento y electrónica."
+      ],
+      [
+        "Técnico en lavadoras",
+        "Repara y mantiene lavadoras, solucionando problemas mecánicos y eléctricos."
+      ],
+      [
+        "Técnico en lavavajillas",
+        "Repara y da mantenimiento a lavavajillas, corrigiendo problemas de agua y funcionamiento."
+      ],
+      [
+        "Técnico en licuadoras y pequeños electrodomésticos",
+        "Repara licuadoras, batidoras, cafeteras y otros electrodomésticos pequeños."
+      ],
+      [
+        "Técnico en máquinas de coser",
+        "Repara y ajusta máquinas de coser domésticas e industriales."
+      ],
+      [
+        "Técnico en planchas",
+        "Se especializa en la reparación de planchas de vapor y eléctricas."
+      ],
+      [
+        "Técnico en refrigeradores",
+        "Se especializa en la reparación y mantenimiento de neveras y congeladores."
+      ],
+      [
+        "Técnico en secadoras",
+        "Se encarga de la reparación de secadoras de ropa, tanto eléctricas como a gas."
+      ],
+      [
+        "Técnico en sistemas de refrigeración comercial",
+        "Repara neveras y congeladores para uso en comercios y restaurantes."
+      ],
+      [
+        "Técnico en sistemas de seguridad doméstica",
+        "Repara cámaras, alarmas y sistemas de seguridad electrónicos."
+      ],
+      [
+        "Técnico en sistemas de sonido",
+        "Repara equipos de sonido, altavoces y sistemas de audio domésticos."
+      ],
+      [
+        "Técnico en televisores",
+        "Arregla fallas en televisores, tanto en pantallas como en componentes electrónicos."
+      ],
+      [
+        "Técnico en ventiladores",
+        "Arregla ventiladores de techo, de pie y portátiles."
+      ]
+    ],
+    "Salud y Cuidado Personal": [
+      [
+        "Asistente de salud en hogares",
+        "Presta apoyo en el cuidado de enfermos o personas con discapacidad en sus hogares."
+      ],
+      [
+        "Auxiliar de fisioterapia",
+        "Ayuda en terapias físicas para rehabilitación de lesiones y problemas musculares."
+      ],
+      [
+        "Barbero",
+        "Especialista en cortes de cabello y afeitado para hombres."
+      ],
+      [
+        "Cuidadores de adultos mayores",
+        "Asiste a personas mayores en su vida diaria, ayudando con alimentación, higiene y movilidad."
+      ],
+      [
+        "Enfermero/a auxiliar",
+        "Brinda apoyo en la atención de pacientes en hospitales, clínicas o domicilios."
+      ],
+      [
+        "Especialista en depilación",
+        "Realiza depilaciones con cera, láser u otros métodos en centros de estética."
+      ],
+      [
+        "Estilista",
+        "Realiza cortes, peinados y tratamientos capilares en salones de belleza o a domicilio."
+      ],
+      [
+        "Instructor/a de fitness",
+        "Guía a personas en entrenamientos físicos para mejorar su condición y bienestar."
+      ],
+      [
+        "Instructor/a de yoga",
+        "Enseña técnicas de yoga y meditación para mejorar la salud física y mental."
+      ],
+      [
+        "Manicurista y pedicurista",
+        "Brinda servicios de cuidado y embellecimiento de uñas en manos y pies."
+      ],
+      [
+        "Maquillador/a profesional",
+        "Aplica maquillaje para eventos, sesiones de fotos y ocasiones especiales."
+      ],
+      [
+        "Masajista",
+        "Proporciona masajes terapéuticos y de relajación para aliviar tensiones y mejorar la circulación."
+      ],
+      [
+        "Optometrista técnico",
+        "Realiza exámenes básicos de la vista y asesora en la selección de lentes."
+      ],
+      [
+        "Perforador/a corporal",
+        "Especialista en perforaciones corporales para colocar piercings en diversas zonas."
+      ],
+      [
+        "Podólogo/a",
+        "Se encarga del cuidado y tratamiento de los pies, incluyendo problemas como callos y uñas encarnadas."
+      ],
+      [
+        "Tatuador/a",
+        "Diseña y realiza tatuajes en la piel de los clientes de forma artística y profesional."
+      ],
+      [
+        "Terapista holístico",
+        "Ofrece terapias alternativas como reiki, aromaterapia y acupuntura."
+      ],
+      [
+        "Técnico en farmacia",
+        "Colabora en la dispensación y organización de medicamentos en farmacias."
+      ],
+      [
+        "Técnico en odontología",
+        "Asiste en la fabricación y ajuste de prótesis dentales y otros dispositivos odontológicos."
+      ],
+      [
+        "Técnico en ortopedia",
+        "Fabrica y ajusta prótesis, órtesis y otros dispositivos ortopédicos."
+      ]
+    ],
+    "Seguridad": [
+      [
+        "Agente de control de acceso",
+        "Registra y verifica la identidad de las personas en eventos y edificios corporativos."
+      ],
+      [
+        "Agente de seguridad aeroportuaria",
+        "Realiza controles de seguridad en aeropuertos para garantizar la seguridad de los pasajeros."
+      ],
+      [
+        "Agente de seguridad en transporte público",
+        "Vigila y previene incidentes en autobuses, trenes y estaciones de transporte."
+      ],
+      [
+        "Bombero",
+        "Responde a emergencias de incendios, rescates y situaciones de peligro."
+      ],
+      [
+        "Custodio de valores",
+        "Transporta y protege dinero y objetos valiosos en vehículos blindados."
+      ],
+      [
+        "Escolta",
+        "Protege a personas de alto perfil en sus desplazamientos y actividades diarias."
+      ],
+      [
+        "Especialista en ciberseguridad",
+        "Protege sistemas informáticos contra ataques y vulnerabilidades."
+      ],
+      [
+        "Experto en autodefensa y seguridad personal",
+        "Entrena y asesora en estrategias de protección personal y defensa."
+      ],
+      [
+        "Guardia de seguridad",
+        "Vigila y protege bienes y personas en empresas, residencias y eventos."
+      ],
+      [
+        "Guardia de seguridad en hospitales",
+        "Controla accesos y protege a pacientes, personal y visitantes en centros médicos."
+      ],
+      [
+        "Inspector de seguridad laboral",
+        "Evalúa riesgos y supervisa el cumplimiento de normas de seguridad en empresas."
+      ],
+      [
+        "Investigador privado",
+        "Realiza seguimientos e investigaciones para clientes particulares o empresas."
+      ],
+      [
+        "Oficial de policía",
+        "Mantiene el orden público, previene delitos y protege a la comunidad."
+      ],
+      [
+        "Operador de cámaras de seguridad",
+        "Monitorea y analiza imágenes de circuitos cerrados de televisión para detectar incidentes."
+      ],
+      [
+        "Perito forense",
+        "Investiga escenas del crimen y recopila pruebas para análisis judicial."
+      ],
+      [
+        "Seguridad en espectáculos y eventos",
+        "Garantiza la seguridad del público y el orden en conciertos, ferias y encuentros deportivos."
+      ],
+      [
+        "Socorrista",
+        "Brinda primeros auxilios y rescates en piscinas, playas y entornos acuáticos."
+      ],
+      [
+        "Supervisor de seguridad",
+        "Coordina y supervisa equipos de seguridad en diferentes instalaciones."
+      ],
+      [
+        "Técnico en alarmas y sistemas de seguridad",
+        "Instala y da mantenimiento a alarmas, cámaras y sistemas de seguridad electrónica."
+      ],
+      [
+        "Vigilante de seguridad privada",
+        "Controla accesos y supervisa la seguridad en establecimientos privados."
+      ]
+    ],
+    "Servicios para el hogar y mantenimiento": [
+      [
+        "Ayudante de mudanzas",
+        "Carga, transporta y acomoda muebles y enseres en traslados de hogar."
+      ],
+      [
+        "Carpintero de muebles",
+        "Fabrica y repara muebles de madera para el hogar."
+      ],
+      [
+        "Cerrajero",
+        "Abre y repara cerraduras, copia llaves y mejora la seguridad del hogar."
+      ],
+      [
+        "Cristalero",
+        "Instala y repara vidrios en ventanas y puertas."
+      ],
+      [
+        "Cuidador de adultos mayores",
+        "Brinda atención y apoyo a personas mayores en sus domicilios."
+      ],
+      [
+        "Desinfectador y control de plagas",
+        "Elimina insectos y roedores para proteger la salud del hogar."
+      ],
+      [
+        "Electricista residencial",
+        "Realiza instalaciones y reparaciones eléctricas en viviendas."
+      ],
+      [
+        "Empleado doméstico",
+        "Realiza limpieza, cocina y otras tareas del hogar."
+      ],
+      [
+        "Impermeabilizador",
+        "Aplica productos y técnicas para evitar filtraciones de agua en techos y paredes."
+      ],
+      [
+        "Instalador de aire acondicionado",
+        "Instala y da mantenimiento a sistemas de climatización en casas."
+      ],
+      [
+        "Instalador de cortinas y persianas",
+        "Coloca y ajusta cortinas, estores y persianas en ventanas."
+      ],
+      [
+        "Jardinero",
+        "Mantiene y cuida jardines, césped y áreas verdes."
+      ],
+      [
+        "Limpiador de alfombras y tapetes",
+        "Limpia y desinfecta alfombras y tapizados en hogares."
+      ],
+      [
+        "Mantenimiento de piscinas",
+        "Limpia y da mantenimiento a piscinas en residencias."
+      ],
+      [
+        "Niñera",
+        "Cuida y atiende a niños en hogares particulares."
+      ],
+      [
+        "Organizador profesional",
+        "Ayuda a ordenar y optimizar espacios en el hogar."
+      ],
+      [
+        "Pintor de interiores",
+        "Aplica pintura en paredes y techos dentro del hogar."
+      ],
+      [
+        "Plomero",
+        "Repara e instala tuberías, grifos y sistemas de agua en el hogar."
+      ],
+      [
+        "Tapicero",
+        "Restaura y cambia la tapicería de muebles y sillas."
+      ],
+      [
+        "Técnico en electrodomésticos",
+        "Repara y da mantenimiento a refrigeradores, lavadoras y otros electrodomésticos."
+      ]
+    ],
+    "Tecnología y Reparaciones": [
+      [
+        "Electricista",
+        "Realiza instalaciones y reparaciones eléctricas en hogares, oficinas e industrias."
+      ],
+      [
+        "Especialista en recuperación de datos",
+        "Recupera información de discos duros y dispositivos de almacenamiento dañados."
+      ],
+      [
+        "Mecánico de bicicletas eléctricas",
+        "Repara y da mantenimiento a bicicletas con motor eléctrico."
+      ],
+      [
+        "Reparador de consolas de videojuegos",
+        "Soluciona problemas en consolas de videojuegos, incluyendo hardware y software."
+      ],
+      [
+        "Reparador de electrodomésticos",
+        "Arregla refrigeradores, lavadoras, microondas y otros aparatos eléctricos."
+      ],
+      [
+        "Reparador de relojes",
+        "Repara y ajusta relojes mecánicos y electrónicos."
+      ],
+      [
+        "Reparador de televisores",
+        "Diagnostica y arregla fallas en televisores LCD, LED y plasmas."
+      ],
+      [
+        "Técnico en aire acondicionado",
+        "Instala y repara sistemas de aire acondicionado y calefacción."
+      ],
+      [
+        "Técnico en antenas y televisión satelital",
+        "Instala y configura antenas para señales de televisión y satélite."
+      ],
+      [
+        "Técnico en cajeros automáticos",
+        "Realiza mantenimiento y reparación de cajeros automáticos y dispensadores de dinero."
+      ],
+      [
+        "Técnico en cámaras de seguridad",
+        "Instala y configura sistemas de videovigilancia en distintos entornos."
+      ],
+      [
+        "Técnico en domótica",
+        "Instala y configura dispositivos de automatización en hogares y edificios."
+      ],
+      [
+        "Técnico en drones",
+        "Repara y ajusta drones de uso recreativo y profesional."
+      ],
+      [
+        "Técnico en fibra óptica",
+        "Instala y mantiene redes de fibra óptica para servicios de internet y telecomunicaciones."
+      ],
+      [
+        "Técnico en impresoras",
+        "Da mantenimiento y repara impresoras de tinta, láser y multifuncionales."
+      ],
+      [
+        "Técnico en placas solares",
+        "Instala y mantiene sistemas de energía solar en residencias y empresas."
+      ],
+      [
+        "Técnico en redes",
+        "Instala y configura redes de internet y telecomunicaciones para hogares y empresas."
+      ],
+      [
+        "Técnico en reparación de celulares",
+        "Diagnostica y repara teléfonos móviles, incluyendo pantallas, baterías y software."
+      ],
+      [
+        "Técnico en reparación de computadoras",
+        "Repara y da mantenimiento a computadoras y laptops, tanto en hardware como en software."
+      ],
+      [
+        "Técnico en sonido y audio",
+        "Repara y ajusta equipos de sonido, bocinas y sistemas de audio profesional."
+      ]
+    ],
+    "Transporte de Personas": [
+      [
+        "Bicitaxista",
+        "Transporta pasajeros en triciclos adaptados en zonas urbanas y turísticas."
+      ],
+      [
+        "Chofer de vehículos privados",
+        "Maneja automóviles particulares para empresas o familias."
+      ],
+      [
+        "Conductor de ambulancia",
+        "Maneja vehículos de emergencia para trasladar pacientes a hospitales."
+      ],
+      [
+        "Conductor de bus intermunicipal",
+        "Transporta pasajeros entre diferentes ciudades o regiones."
+      ],
+      [
+        "Conductor de bus urbano",
+        "Opera autobuses en rutas establecidas dentro de una ciudad o municipio."
+      ],
+      [
+        "Conductor de calesa",
+        "Maneja carruajes tirados por caballos para transporte turístico o ceremonial."
+      ],
+      [
+        "Conductor de carroza fúnebre",
+        "Traslada féretros en ceremonias funerarias."
+      ],
+      [
+        "Conductor de funicular o teleférico",
+        "Maneja sistemas de transporte por cable en zonas montañosas o turísticas."
+      ],
+      [
+        "Conductor de lancha de pasajeros",
+        "Transporta personas en embarcaciones pequeñas en ríos, lagos o costas."
+      ],
+      [
+        "Conductor de limusina",
+        "Brinda servicios de transporte de lujo para eventos especiales."
+      ],
+      [
+        "Conductor de microbús",
+        "Maneja minibuses en rutas de transporte público o privado."
+      ],
+      [
+        "Conductor de taxi",
+        "Maneja un taxi para transportar pasajeros dentro de la ciudad o zonas rurales."
+      ],
+      [
+        "Conductor de transporte de discapacitados",
+        "Opera vehículos adaptados para personas con movilidad reducida."
+      ],
+      [
+        "Conductor de transporte de personal",
+        "Traslada empleados a sus lugares de trabajo en buses o vans."
+      ],
+      [
+        "Conductor de transporte escolar",
+        "Traslada estudiantes desde sus hogares hasta la escuela y viceversa."
+      ],
+      [
+        "Conductor de transporte turístico",
+        "Realiza recorridos turísticos en vehículos privados o colectivos."
+      ],
+      [
+        "Conductor de tren ligero",
+        "Opera trenes ligeros en sistemas de transporte masivo."
+      ],
+      [
+        "Conductor de tuk-tuk",
+        "Maneja mototaxis de tres ruedas en zonas urbanas y turísticas."
+      ],
+      [
+        "Conductor de vehículo de plataformas digitales",
+        "Usa aplicaciones como Uber, Didi o Cabify para transportar pasajeros."
+      ],
+      [
+        "Mototaxista",
+        "Ofrece transporte en motocicleta en áreas urbanas o rurales."
+      ]
+    ],
+    "Transporte y Vehículos": [
+      [
+        "Chofer de transporte escolar",
+        "Traslada estudiantes entre sus hogares y centros educativos."
+      ],
+      [
+        "Chofer privado",
+        "Maneja vehículos particulares para clientes o empresas."
+      ],
+      [
+        "Conductor de ambulancia",
+        "Maneja ambulancias para trasladar pacientes de emergencia."
+      ],
+      [
+        "Conductor de autobús",
+        "Maneja autobuses para el transporte público o privado de pasajeros."
+      ],
+      [
+        "Conductor de camión",
+        "Transporta mercancías a nivel local, nacional o internacional."
+      ],
+      [
+        "Conductor de grúa",
+        "Opera grúas para remolcar vehículos averiados o mal estacionados."
+      ],
+      [
+        "Conductor de plataforma (Uber, Didi, etc.)",
+        "Transporta pasajeros mediante aplicaciones de movilidad."
+      ],
+      [
+        "Instalador de accesorios automotrices",
+        "Coloca alarmas, vidrios polarizados, luces y otros accesorios en vehículos."
+      ],
+      [
+        "Lavador de autos",
+        "Limpia y detalla vehículos en autolavados o de manera independiente."
+      ],
+      [
+        "Mecánico automotriz",
+        "Repara y da mantenimiento a automóviles y vehículos ligeros."
+      ],
+      [
+        "Mecánico de camiones",
+        "Especialista en la reparación de vehículos pesados y de carga."
+      ],
+      [
+        "Mecánico de motocicletas",
+        "Repara y mantiene motocicletas de diferentes marcas y modelos."
+      ],
+      [
+        "Mensajero",
+        "Realiza entregas y gestiona documentos en diferentes ubicaciones."
+      ],
+      [
+        "Motociclista repartidor",
+        "Entrega paquetes, alimentos o documentos en motocicleta."
+      ],
+      [
+        "Operador de montacargas",
+        "Maneja montacargas para movilizar mercancía en almacenes e industrias."
+      ],
+      [
+        "Pintor automotriz",
+        "Realiza trabajos de pintura y retoques en vehículos."
+      ],
+      [
+        "Reparador de neumáticos",
+        "Repara y cambia llantas en talleres y carreteras."
+      ],
+      [
+        "Taxista",
+        "Conduce un taxi para trasladar pasajeros dentro de una ciudad o región."
+      ],
+      [
+        "Transportista de carga ligera",
+        "Traslada mercancías en camionetas o furgonetas."
+      ],
+      [
+        "Técnico en alineación y balanceo",
+        "Ajusta y equilibra las llantas para mejorar el desempeño del vehículo."
+      ]
+    ],
+    "Venta y Comercio": [
+      [
+        "Agente de ventas puerta a puerta",
+        "Promociona y vende productos visitando clientes en sus domicilios."
+      ],
+      [
+        "Cajero",
+        "Atiende el cobro y manejo de dinero en tiendas y supermercados."
+      ],
+      [
+        "Carnicero",
+        "Vende carne y productos cárnicos en mercados o carnicerías."
+      ],
+      [
+        "Comerciante de artesanías",
+        "Vende productos artesanales en mercados turísticos y ferias."
+      ],
+      [
+        "Comerciante mayorista",
+        "Compra y vende productos en grandes cantidades a otros comerciantes."
+      ],
+      [
+        "Dependiente de tienda",
+        "Atiende clientes y organiza productos en tiendas y minimercados."
+      ],
+      [
+        "Feriante",
+        "Vende productos en ferias itinerantes o mercados al aire libre."
+      ],
+      [
+        "Florista",
+        "Vende arreglos florales y plantas en mercados y tiendas especializadas."
+      ],
+      [
+        "Joyero comerciante",
+        "Compra, vende y repara joyas y relojes en tiendas o mercados."
+      ],
+      [
+        "Librero",
+        "Vende libros y material de lectura en librerías o puestos callejeros."
+      ],
+      [
+        "Panadero vendedor",
+        "Elabora y vende pan y productos de panadería en locales o mercados."
+      ],
+      [
+        "Promotor de ventas",
+        "Realiza demostraciones y promociones de productos en tiendas o eventos."
+      ],
+      [
+        "Repartidor",
+        "Entrega productos y pedidos a domicilio en bicicleta, moto o vehículo."
+      ],
+      [
+        "Tienda de abarrotes",
+        "Administra y vende productos básicos en pequeños comercios de barrio."
+      ],
+      [
+        "Vendedor ambulante",
+        "Comercializa productos en la vía pública o en mercados informales."
+      ],
+      [
+        "Vendedor de autos usados",
+        "Compra y vende vehículos usados de manera independiente o en lotes."
+      ],
+      [
+        "Vendedor de electrónicos",
+        "Comercializa teléfonos, computadoras y accesorios en tiendas o en línea."
+      ],
+      [
+        "Vendedor de mercado",
+        "Ofrece productos en mercados y ferias locales."
+      ],
+      [
+        "Vendedor de ropa",
+        "Comercializa prendas y accesorios en tiendas o de manera ambulante."
+      ],
+      [
+        "Vendedor en redes sociales",
+        "Comercializa productos a través de plataformas digitales y redes sociales."
+      ]
+    ]
+  }
+}

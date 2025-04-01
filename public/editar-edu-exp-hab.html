@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completar perfil - Encuentra tu profesional</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles_EduExpHab.css">
+</head>
+<body>
+    <section class="registro">
+        <div class="registro-card">
+            <h2>Formación académica, Experiencia y Habilidades</h2>
+            <form id="perfilForm">
+                <!-- Sección de Educación -->
+                <div class="form-section">
+                    <h3>Educación</h3>
+
+                    <p>Llenar Nivel Académico, Título obtenido y Año de graduación. Si en la pregunta previa <strong>"¿Cómo aprendiste tu oficio?"</strong> seleccionó <strong>"Lo aprendí con la experiencia"</strong>, omitir las preguntas sobre educación 😄</p>
+                
+                    <button type="button" id="agregarEducacion" class="button">Agregar Educación</button>
+                    <div id="educacionForm" style="display: none;">
+                        <label for="nivelAcademico">Nivel académico</label>
+                        <select id="nivelAcademico">
+                            <option value="Técnico">Técnico</option>
+                            <option value="Tecnólogo">Pregrado</option>
+                            <option value="Pregrado">Pregrado</option>
+                            <option value="Especialista">Especialista</option>
+                            <option value="Magíster">Magíster</option>
+                            <option value="Doctor">Doctor</option>
+                        </select>
+                        <label for="titulo">Título</label>
+                        <input type="text" id="titulo">
+                        <label for="universidad">Universidad</label>
+                        <input type="text" id="universidad">              
+                        <label for="anoGraduacion">Año de graduación</label>
+                        <input type="number" id="anoGraduacion">
+                        <button type="button" id="confirmarEducacion" class="btn-confirmar">Confirmar Educación</button>
+                    </div>
+                    <div id="educacionLista"></div>
+                </div>
+
+                <!-- Sección de Experiencia -->
+                <div class="form-section">
+                    <h3>Experiencia</h3>
+                    <p>Especificar Cargo, Tipo de Cargo, Empresa y Duración.</p>                    
+                    <button type="button" id="agregarExperiencia" class="button">Agregar Experiencia</button>
+                    <div id="experienciaForm" style="display: none;">
+                        <label for="cargo">Cargo</label>
+                        <input type="text" id="cargo">
+                        <label for="tipoCargo">Tipo de cargo</label>
+                        <p><strong>Dirección:</strong> Directivos y Gerentes Generales. <strong>Mandos medios:</strong> Gerentes de área, Coordinadores y Supervisores. <strong>Profesionales y técnicos:</strong> Especialistas, Analistas y Técnicos. <strong>Operativos y asistentes:</strong> Asistentes, Obreros y Personal de apoyo</p>
+                        <select id="tipoCargo">
+                            <option value="Alta dirección">Alta dirección</option>
+                            <option value="Mandos medios">Mandos medios</option>
+                            <option value="Profesionales - técnicos">Profesionales - técnicos</option>
+                            <option value="Operativos-asistentes">Operativos-asistentes</option>
+                        </select>
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa">
+                        <label for="anoInicio">Año de inicio</label>
+                        <input type="number" id="anoInicio">
+                        <label for="anoFin">Año de finalización</label>
+                        <input type="number" id="anoFin">
+                        <button type="button" id="confirmarExperiencia" class="btn-confirmar">Confirmar Experiencia</button>
+                    </div>
+                    <div id="experienciaLista"></div>
+                </div>
+
+                <!-- Sección de Habilidades -->
+                <div class="form-section">
+                    <h3>Habilidades</h3>
+                    <p>Pregutarle a la persona <strong>minimo 3 Habilidades</strong>. Son las tareas rutinarias de la persona en su trabajo 💪. Asignar el nivel "básico" por defecto. Ejemplos de habilidades: Electricista → Mantenimiento eléctrico. Mecanico de carros → Luces y fusibles. Secretaria → Atención al usuario. Enfermera → Administración de medicamentos. Jardinero → Control de plagas. Empacador → Empaque de mercancía ...</p>
+                    <button type="button" id="agregarHabilidad" class="button">Agregar Habilidad</button>
+                    <div id="habilidadForm" style="display: none;">
+                        <label for="habilidad">Habilidad</label>
+                        <input type="text" id="habilidad">
+                        <label for="nivel">Nivel</label>
+                        <select id="nivel">
+                            <option value="básico">Básico</option>
+                            <option value="intermedio">Intermedio</option>
+                            <option value="avanzado">Avanzado</option>
+                        </select>
+                        <button type="button" id="confirmarHabilidad" class="btn-confirmar">Confirmar Habilidad</button>
+                    </div>
+                    <div id="habilidadesLista"></div>
+                </div>
+
+                <!-- Botón de confirmación final -->
+                <button type="submit" class="btn-confirmar-final">Confirmar cambios</button>
+            </form>
+        </div>
+    </section>
+    
+    <script type="module" src="scripts/editar-edu-exp-hab.js"></script>
+</body>
+</html>

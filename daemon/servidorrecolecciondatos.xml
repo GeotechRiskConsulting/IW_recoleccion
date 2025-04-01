@@ -1,0 +1,32 @@
+<service>
+	<id>servidorrecolecciondatos.exe</id>
+	<name>ServidorRecoleccionDatos</name>
+	<description>Servicio para la recolección de datos desde dispositivos móviles</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\server.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>ServidorRecoleccionDatos wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<env name="NODE_ENV" value="production"/>
+	<serviceaccount>
+		<domain>LAPTOP-9DNQKS2V</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local</workingdirectory>
+</service>

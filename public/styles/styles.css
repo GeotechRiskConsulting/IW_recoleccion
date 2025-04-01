@@ -1,0 +1,477 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: auto; /* Permite el scroll */
+}
+
+main {
+    flex: 1;
+    padding-bottom: 2rem; /* Espacio antes del footer */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    position: relative; /* Para posicionar el menú correctamente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#logoutBtn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: #ffc107; /* Cambiar color del texto */
+}
+
+.nav-links li a.register-button {
+    background-color: #ffc107;
+    color: #333;
+    border-radius: 5px;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu-toggle:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.hero button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: white;
+}
+
+.feature-card {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+    color: #666;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+/* Media queries para móviles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Mostrar el botón en móviles */
+    }
+
+    .nav-links {
+        display: none; /* Ocultar el menú en móviles */
+        flex-direction: column;
+        width: 100%;
+        background-color: #0056b3;
+        position: absolute;
+        top: 100%; /* Colocar el menú debajo del header */
+        left: 0;
+        padding: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        border-radius: 0 0 10px 10px; /* Bordes redondeados */
+    }
+
+    .nav-links.active {
+        display: flex; /* Mostrar el menú cuando está activo */
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .nav-links li a {
+        display: block;
+        padding: 1rem;
+        color: white;
+	    transition: background-color 0.3s ease;
+    }
+
+    .nav-links li a:hover {
+        background-color: rgba(255, 255, 255, 0.1); /* Fondo al pasar el mouse */
+    }
+
+    .nav-links li a.register-button {
+        background-color: #ffc107;
+        color: #333;
+        margin: 0.5rem auto; /* Centrar el botón */
+        width: 80%; /* Ancho del botón */
+        border-radius: 5px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .registro-card {
+        padding: 1.5rem;
+        max-width: 95%;
+    }
+
+    .registro h2 {
+        font-size: 1.5rem;
+    }
+    
+    .registro input, .registro select {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .registro button {
+        font-size: 0.9rem;
+    }
+}
+
+/* Buscar Section */
+.buscar {
+    padding: 2rem;
+    text-align: center;
+}
+
+.buscar h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.buscar form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.buscar input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.buscar button[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Resultados de búsqueda */
+.resultados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.profesional-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+}
+
+.profesional-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.profesional-card p {
+    margin: 0.5rem 0;
+}
+
+.profesional-card button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Barra de progreso */
+.progress-bar {
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+
+.aviso-condiciones {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.aviso-condiciones a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.aviso-condiciones a:hover {
+    text-decoration: underline;
+}
+
+/* Login Section */
+.login {
+    padding: 2rem;
+    text-align: center;
+}
+
+.login h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.login button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Estilos para la sección de asignar contraseña */
+.asignar-contrasena {
+    padding: 2rem;
+    text-align: center;
+}
+
+.asignar-contrasena h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.asignar-contrasena form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.asignar-contrasena input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.asignar-contrasena button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.mensaje-error {
+    color: red;
+    margin-top: 1rem;
+}
+
+.aviso-condiciones {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.aviso-condiciones a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.aviso-condiciones a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la foto de perfil */
+#foto-container {
+    width: 150px; /* Ancho fijo */
+    height: 150px; /* Alto fijo */
+    overflow: hidden; /* Oculta el exceso de la imagen */
+    border: 2px solid #ccc; /* Borde para el contenedor */
+    border-radius: 50%; /* Hace el contenedor circular */
+    position: relative;
+    margin: 20px auto;
+}
+
+
+#fotoPerfil {
+    width: 100%; /* Ajusta la imagen al contenedor */
+    height: 100%; /* Ajusta la imagen al contenedor */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+}
+
+/* Estilos para el botón de subir foto */
+#botonSubirFoto {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#subirFoto {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0; /* Oculta el input nativo */
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Ocultar botones de edición en modo visualización */
+body:not(.modo-edicion) .edicion {
+    display: none !important;
+}
+
+/* Mostrar botones de edición en modo edición */
+body.modo-edicion .edicion {
+    display: inline-block; /* O el valor que corresponda */
+}

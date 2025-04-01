@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completar perfil</title>
+    
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles_perfil.css">
+
+</head>
+<body>
+    <!-- El header se cargará dinámicamente aquí -->
+
+    <!-- Completar perfil Section -->
+    <section class="registro">
+        <div class="registro-card">
+            <h2>Información basica</h2>
+            
+                <p>Si no proporciona la fecha de nacimiento, estimarla intuitivamente. Por ejemplo, si veo que la persona tiene 30 años, registro la fecha de nacimiento como 1995-01-01 😎</p>
+                
+                <form id="perfilForm">
+
+                
+                <!-- Sección 1: Ubicación y fecha de nacimiento -->
+                <div class="form-section">
+                    <label for="nombre">Nombre(s)</label>
+                    <input type="text" id="nombre" required>
+                    
+                    <label for="apellido">Apellido(s)</label>
+                    <input type="text" id="apellido" required>
+
+                    <label for="fechaNacimiento">Fecha de nacimiento</label>
+                    <input type="date" id="fechaNacimiento" required>
+                    
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" required>
+                    
+                    <label for="pais">País</label>
+                    <select id="pais" required>
+                        <option value="">Selecciona un país</option>
+                    </select>
+
+                    <label for="ciudad">Ciudad</label>
+                    <select id="ciudad" required>
+                        <option value="">Selecciona una ciudad</option>
+                    </select>
+                    
+                </div>
+
+                <p>En la siguiente seccion, debo elegir con paciencia 😇. Si, por ejemplo, es la señora de la peluquería, seleccionar la opción <strong>"Lo aprendí con la experiencia"</strong>. Luego, en categoría, buscar términos relacionados con belleza o estética, y dentro de ellos, en el oficio elegir lo asociado con uñas 💯. <strong>Hacerlo con calma y precisión.</strong></p>
+                
+                <!-- Sección 2: Hace pregunta de como se formó-->
+                <div class="form-section">
+                    <label for="aprendizajeOficio">¿Cómo aprendiste tu oficio?</label>
+                    <select id="aprendizajeOficio" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="profesional">🏫 Estudié en una universidad o instituto técnico</option>
+                        <option value="empirico">🛠️ Lo aprendí con la experiencia</option>
+                    </select>
+                </div>
+
+                <!-- Sección 2: Dependiendo de si es empírico o profesional, se lista Sector, rama y especialidad, u oficio y categoría-->               
+
+                <!-- Sección 2: Sector, rama y especialidad (visible solo para "universidad") -->
+                <div class="form-section" id="seccionProfesional" style="display: none;">               
+                    <h3>Elige Sector, Rama y Especialidad que más se adaptan a ti</h3>
+                    <label for="sector">Sector</label>
+                    <select id="sector">
+                        <option value="">Selecciona un sector</option>
+                    </select>
+
+                    <label for="rama">Rama</label>
+                    <select id="rama">
+                        <option value="">Selecciona una rama</option>
+                    </select>
+
+                    <label for="especialidad">Especialidad</label>
+                    <select id="especialidad">
+                        <option value="">Selecciona una especialidad</option>
+                    </select>
+                </div>
+
+                <!-- Sección 3: Perfil académico y profesional (visible solo para "universidad") -->
+                <div class="form-section" id="seccionProfesionalAcademica" style="display: none;">
+                    <h3>Perfil académico</h3>
+                    <label for="perfilAcademico">¿Cuál es tu Profesión?</label>
+                    <input type="text" id="perfilAcademico" placeholder="Ejemplo: Geólogo / MSc Geofísica">
+
+                    <label for="nivelAcademico">Cuál es tu Máximo Nivel académico</label>
+                    <select id="nivelAcademico">
+                        <option value="Ninguno">Ninguno</option>
+                        <option value="Técnico">Técnico</option>
+                        <option value="Tecnólogo">Pregrado</option>
+                        <option value="Pregrado">Pregrado</option>
+                        <option value="Especialista">Especialista</option>
+                        <option value="Magíster">Magíster</option>
+                        <option value="Doctor">Doctor</option>
+                    </select>
+                    <!-- Dentro de tu formulario, agrega este campo adicional -->
+                    <div id="campoEstudioContainer" style="display: none;">
+                        <label for="campoEstudio">¿En qué?</label>
+                        <input type="text" id="campoEstudio" placeholder="Ingresa tu Postgrado">
+                    </div>                    
+                </div>
+
+                <!-- Sección: Categoría y oficio (visible solo para "empírico") -->
+                <div class="form-section" id="seccionEmpirico" style="display: none;">
+                    <h3>Elige una categoría y un oficio</h3>
+                    <label for="categoria">Categoría</label>
+                    <select id="categoria">
+                        <option value="">Selecciona una categoría</option>
+                    </select>
+
+                    <label for="oficio">Oficio</label>
+                    <select id="oficio">
+                        <option value="">Selecciona un oficio</option>
+                    </select>
+                </div>
+
+                <p>En la siguiente seccion, preguntar a la persona cuánto cuantos <strong>Años de experiencia</strong> tiene. A la pregunta ¿Cuánto tiempo tienes disponible?, si no proporciona información, seleccionar la opción <strong>"por horas"</strong>.👍</p>
+                
+                <!-- Sección 4: Experiencia y disponibilidad -->
+                <div class="form-section">
+                    <h3>Experiencia y disponibilidad</h3>
+                    <label for="experiencia_tiempo">Años de experiencia</label>
+                    <select id="experiencia_tiempo" required>
+                        <option value="Menos de 1 año">Menos de 1 año</option>
+                        <option value="1-5 años">1-5 años</option>
+                        <option value="5-10 años">5-10 años</option>
+                        <option value="Más de 10 años">Más de 10 años</option>
+                    </select>
+
+                    <label for="tiempoDisponible">¿Cuánto tiempo tienes disponible?</label>
+                    <select id="tiempoDisponible" required>
+                        <option value="Tiempo completo">Tiempo completo</option>
+                        <option value="Medio tiempo">Medio tiempo</option>
+                        <option value="Por horas">Por horas</option>
+                    </select>
+                </div>
+
+                <!-- Botón de envío -->
+                <button type="submit">Confirmar cambios</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- El footer se cargará dinámicamente aquí -->
+
+    <!-- Cargar el header y el footer dinámicamente -->    
+    <script src="scripts/editar-info-basica.js"></script>
+</body>
+</html>
