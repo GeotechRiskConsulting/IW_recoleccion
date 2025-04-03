@@ -18,3 +18,15 @@ Tablas "usuarios" y "EduExpHab" verificadas/creadas
 Servidor funcionando en
 Endpoint para guardar: POST /api/guardar-perfil
 Endpoint para verificar: GET /api/verificar-datos
+Servidor funcionando en puerto 3000
+- Local: http://localhost:3000
+- Remoto: https://iw-recoleccion.onrender.com
+Endpoint para guardar: POST /api/guardar-perfil
+Servidor funcionando en puerto 3000
+- Local: http://localhost:3000
+- Remoto: https://iw-recoleccion.onrender.com
+Endpoint para guardar: POST /api/guardar-perfil
+Servidor funcionando en puerto 3000
+- Local: http://localhost:3000
+- Remoto: https://iw-recoleccion.onrender.com
+Endpoint para guardar: POST /api/guardar-perfil

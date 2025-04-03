@@ -1,0 +1,20 @@
+En DeepSek conversacion llamada Despliegue del proyecto con Grok y autoarranque
+
+Consultas SQL: para ver los usuarios
+
+	Haz clic en el ícono SQL Editor (hoja con lápiz)
+	Escribe:
+
+	SELECT * FROM usuarios ORDER BY id DESC;
+	Presiona Ctrl+Enter para ejecutar
+
+Editar datos: Con la tabla desplegada con los comandos anteriores
+
+	Usar botones de la parte inferior para:
+
+	✏️ Editar celdas (doble clic en un valor)
+
+	➕ Añadir filas
+
+	❌ Eliminar registros
+	para guardar clic en Save

@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("perfilForm");
 
     // Elementos del formulario
+
+    const encuestadorInput = document.getElementById("encuestador");
+
     const nombreInput = document.getElementById("nombre");
     const apellidoInput = document.getElementById("apellido");
     const telefonoInput = document.getElementById("telefono");
@@ -174,8 +177,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         if (categoria && categoriasOficios[categoria]) {
                             categoriasOficios[categoria].forEach(oficio => {
                                 let option = document.createElement("option");
-                                option.value = oficio[0]; // Nombre del oficio
-                                option.textContent = oficio[0]; // Nombre del oficio
+                                option.value = oficio[0]; //  
+                                option.textContent = oficio[0]; // 
                                 oficioSelect.appendChild(option);
                             });
                         }
@@ -214,6 +217,8 @@ document.addEventListener("DOMContentLoaded", function () {
         
         try {
             const datosActuales = {
+
+                encuestador: encuestadorInput.value,
                 nombre: nombreInput.value,
                 apellido: apellidoInput.value,
                 telefono: telefonoInput.value,
@@ -251,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
             
             alert("Datos guardados correctamente ✔️");
-            sessionStorage.setItem('currentUserId', data.id);
+            sessionStorage.setItem('currentUserId', data.id);            
             sessionStorage.setItem('userName', `${nombreInput.value} ${apellidoInput.value}`);
             window.location.href = "editar-edu-exp-hab.html";            
             
@@ -268,85 +273,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const corregirCaracteres = (texto) => {
         const caracteresMalInterpretados = {
             "Ã¡": "á",
-            "Ã©": "é",
-            "Ã­": "í",
-            "Ã³": "ó",
-            "Ãº": "ú",
-            "Ã±": "ñ",
-            "Ã¼": "ü",
-            "Ã‰": "É",
-            "Ã“": "Ó",
-            "Ãš": "Ú",
-            "Ã‘": "Ñ",
-            "Ãœ": "Ü",
-            "Ã„": "Ä",
-            "Ã–": "Ö",
-            "ÃŸ": "ß",
-            "Ã£": "ã",
-            "Ã§": "ç",
-            "Ã´": "ô",
-            "Ãµ": "õ",
-            "Ã ": "à",
-            "Ã€": "À",
-            "Ã‚": "Â",
-            "Ãƒ": "Ã",
-            "Ã„": "Ä",
-            "Ã…": "Å",
-            "Ã†": "Æ",
-            "Ã‡": "Ç",
-            "Ãˆ": "È",
-            "Ã‰": "É",
-            "ÃŠ": "Ê",
-            "Ã‹": "Ë",
-            "ÃŒ": "Ì",
-            "ÃŽ": "Î",
-            "Ã": "Ï",
-            "Ã": "Ð",
-            "Ã‘": "Ñ",
-            "Ã’": "Ò",
-            "Ã“": "Ó",
-            "Ã”": "Ô",
-            "Ã•": "Õ",
-            "Ã–": "Ö",
-            "Ã—": "×",
-            "Ã˜": "Ø",
-            "Ã™": "Ù",
-            "Ãš": "Ú",
-            "Ã›": "Û",
-            "Ãœ": "Ü",
-            "Ã": "Ý",
-            "Ãž": "Þ",
-            "ÃŸ": "ß",
-            "Ã¡": "á",
-            "Ã¢": "â",
-            "Ã£": "ã",
-            "Ã¤": "ä",
-            "Ã¥": "å",
-            "Ã¦": "æ",
-            "Ã§": "ç",
-            "Ã¨": "è",
-            "Ã©": "é",
-            "Ãª": "ê",
-            "Ã«": "ë",
-            "Ã¬": "ì",
-            "Ã­": "í",
-            "Ã®": "î",
-            "Ã¯": "ï",
-            "Ã°": "ð",
-            "Ã±": "ñ",
-            "Ã²": "ò",
-            "Ã³": "ó",
-            "Ã´": "ô",
-            "Ãµ": "õ",
-            "Ã¶": "ö",
-            "Ã·": "÷",
-            "Ã¸": "ø",
-            "Ã¹": "ù",
-            "Ãº": "ú",
-            "Ã»": "û",
-            "Ã½": "ý",
-            "Ã¾": "þ",
-            "Ã¿": "ÿ"
+            "Ã©": "é",        
         };
         Object.keys(caracteresMalInterpretados).forEach(caracter => {
             texto = texto.replace(new RegExp(caracter, "g"), caracteresMalInterpretados[caracter]);

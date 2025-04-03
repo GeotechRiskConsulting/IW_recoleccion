@@ -62,3 +62,5 @@
 2025-04-01 14:40:47 - Send SIGINT 26752
 2025-04-01 14:40:47 - SIGINT to 26752 failed - Killing as fallback
 2025-04-01 14:40:47 - Finished servidorrecolecciondatos.exe
+2025-04-01 15:08:03 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\node_modules\node-windows\lib\wrapper.js --file C:\Users\Acer\Desktop\GRC_Project\iWork\base_datos_local\server.js --scriptoptions= --log "ServidorRecoleccionDatos wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-04-01 15:08:03 - Started 23332

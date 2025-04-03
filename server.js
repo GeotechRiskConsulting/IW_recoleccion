@@ -151,6 +151,7 @@ const createTables = async () => {
         await pool.query(`
             CREATE TABLE IF NOT EXISTS usuarios (
                 id SERIAL PRIMARY KEY,
+                encuestador TEXT,
                 nombre TEXT,
                 apellido TEXT,
                 telefono TEXT,
@@ -220,7 +221,7 @@ app.post('/api/guardar-perfil', async (req, res) => {
 
     const query = `
         INSERT INTO usuarios (
-            nombre, apellido, telefono, pais, ciudad, fechaNacimiento, 
+            encuestador, nombre, apellido, telefono, pais, ciudad, fechaNacimiento, 
             aprendizajeOficio, sector, rama, especialidad, perfilAcademico, 
             nivelAcademico, campoEstudio, categoria, oficio, 
             experienciaTiempo, tiempoDisponible, educacion, experiencia, habilidades
@@ -229,6 +230,7 @@ app.post('/api/guardar-perfil', async (req, res) => {
     `;
     
     const params = [
+        req.body.encuestador || null,
         req.body.nombre || null,
         req.body.apellido || null,
         req.body.telefono || null,
